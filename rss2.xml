@@ -9,8 +9,33 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 15 Jan 2021 13:08:41 GMT</pubDate>
+    <pubDate>Fri, 15 Jan 2021 14:58:31 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210115</title>
+      <link>https://codingppushu.github.io/2021/01/15/TIL-210115/</link>
+      <guid>https://codingppushu.github.io/2021/01/15/TIL-210115/</guid>
+      <pubDate>Fri, 15 Jan 2021 13:14:56 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;자바스크립트가 뒤에서 작동하는 방식&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/images/ti</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>자바스크립트가 뒤에서 작동하는 방식</li></ul><p><img src="/images/til/210115_til_kewords.png"></p><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>primitives : 숫자</li><li>기본 데이터 유형 기억</li><li></li></ul><!-- # Why? -->]]></content:encoded>
+      
+      
+      
+      
+      <comments>https://codingppushu.github.io/2021/01/15/TIL-210115/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210114</title>
