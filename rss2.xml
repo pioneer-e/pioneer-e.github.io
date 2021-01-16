@@ -9,8 +9,38 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 15 Jan 2021 16:57:06 GMT</pubDate>
+    <pubDate>Sat, 16 Jan 2021 14:59:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210116</title>
+      <link>https://codingppushu.github.io/2021/01/16/TIL-210116/</link>
+      <guid>https://codingppushu.github.io/2021/01/16/TIL-210116/</guid>
+      <pubDate>Sat, 16 Jan 2021 12:06:22 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;data Structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;How&quot;&gt;&lt;a href=&quot;#</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>data Structure</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>data Structure</li></ul><!-- # Why? -->]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/01/16/TIL-210116/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210115</title>
