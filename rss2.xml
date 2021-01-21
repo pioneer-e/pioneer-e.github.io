@@ -9,8 +9,36 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 20 Jan 2021 13:24:08 GMT</pubDate>
+    <pubDate>Thu, 21 Jan 2021 13:41:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210121</title>
+      <link>https://codingppushu.github.io/2021/01/21/TIL-210121/</link>
+      <guid>https://codingppushu.github.io/2021/01/21/TIL-210121/</guid>
+      <pubDate>Thu, 21 Jan 2021 13:40:31 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Data Structure&lt;/li&gt;
+&lt;li&gt;Modern Operators and String&lt;/l</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>Data Structure</li><li>Modern Operators and String</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>Nullish coalescing operator (??)<br><img src="/images/til/210121_til_kewords.jpg"></li></ul><!-- # Why? -->]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/01/21/TIL-210121/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210120</title>
