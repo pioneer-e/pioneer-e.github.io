@@ -9,8 +9,36 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 23 Jan 2021 12:12:41 GMT</pubDate>
+    <pubDate>Mon, 25 Jan 2021 13:02:53 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210125</title>
+      <link>https://codingppushu.github.io/2021/01/25/TIL-210125/</link>
+      <guid>https://codingppushu.github.io/2021/01/25/TIL-210125/</guid>
+      <pubDate>Mon, 25 Jan 2021 13:02:26 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Data Structure&lt;/li&gt;
+&lt;li&gt;Modern Operators and String&lt;/l</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>Data Structure</li><li>Modern Operators and String</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>Set<br><img src="/images/til/210125_til_kewords.jpg"></li></ul><!-- # Why? -->]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/01/25/TIL-210125/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210123</title>
@@ -265,36 +293,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/01/14/TIL-210114/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210113</title>
-      <link>https://codingppushu.github.io/2021/01/13/TIL-210113/</link>
-      <guid>https://codingppushu.github.io/2021/01/13/TIL-210113/</guid>
-      <pubDate>Wed, 13 Jan 2021 02:57:47 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;자바스크립트가 뒤에서 작동하는 방식&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;How&quot;&gt;&lt;a hr</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>자바스크립트가 뒤에서 작동하는 방식</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>문법 구조에 따른 호이스팅 차이점</li><li>hoisting, TDZ 정의<br><img src="/images/til/210113_til_kewords.png"></li></ul><hr><h1 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h1><ul><li>일부 프로그래밍 기술에 필수적</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/01/13/TIL-210113/#disqus_thread</comments>
       
     </item>
     
