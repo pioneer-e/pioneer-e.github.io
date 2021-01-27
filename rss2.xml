@@ -9,8 +9,36 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 26 Jan 2021 14:05:31 GMT</pubDate>
+    <pubDate>Wed, 27 Jan 2021 13:27:29 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210127</title>
+      <link>https://codingppushu.github.io/2021/01/27/TIL-210127/</link>
+      <guid>https://codingppushu.github.io/2021/01/27/TIL-210127/</guid>
+      <pubDate>Wed, 27 Jan 2021 13:09:28 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Data Structure&lt;/li&gt;
+&lt;li&gt;Modern Operators and String&lt;/l</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>Data Structure</li><li>Modern Operators and String</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><p><img src="/images/til/210127_til_kewords.jpg"></p><!--사용 할 수 있음 : 프로그램 소스 코드 내사용자 인터페이스 : 웹페이지외부 소스 : 웹API데이터 컬렉션 => 항상 가지고 있음, 즉 저장해야 함데이터 구조 arrays / sets objects / maps--><!-- # Why? -->]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/01/27/TIL-210127/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210126</title>
@@ -261,36 +289,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/01/16/TIL-210116/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210115</title>
-      <link>https://codingppushu.github.io/2021/01/15/TIL-210115/</link>
-      <guid>https://codingppushu.github.io/2021/01/15/TIL-210115/</guid>
-      <pubDate>Fri, 15 Jan 2021 13:14:56 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;자바스크립트가 뒤에서 작동하는 방식&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;How&quot;&gt;&lt;a hr</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>자바스크립트가 뒤에서 작동하는 방식</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>primitives 와 object 작동 방식 차이</li><li>primitives (identifier, address, value)</li><li>object (address, value)<br><img src="/images/til/210115_til_kewords.jpg"></li></ul><!-- # Why? -->]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/01/15/TIL-210115/#disqus_thread</comments>
       
     </item>
     
