@@ -9,8 +9,36 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 27 Jan 2021 13:27:29 GMT</pubDate>
+    <pubDate>Mon, 01 Feb 2021 13:08:47 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210130-210201</title>
+      <link>https://codingppushu.github.io/2021/02/01/TIL-210130-210201/</link>
+      <guid>https://codingppushu.github.io/2021/02/01/TIL-210130-210201/</guid>
+      <pubDate>Mon, 01 Feb 2021 13:05:31 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Data Structure&lt;/li&gt;
+&lt;li&gt;Modern Operators and String&lt;/l</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>Data Structure</li><li>Modern Operators and String</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><p><img src="/images/til/210130_0201_til_kewords.jpg"></p><!--문자열 연습indexOf('a')lastIndexOf('a')slice(3) / slice(-1)slice(3,7) /slice(3,-1)toLowerCase()toUpperCase()trim()toLowerCase().trim()replace('a', 'b').replace(',', '.')replace(/apple/g, 'orange')includes('7')split('_')join(' ')padStart(20, '*')padEnd(20, '*').repeat(n)--><!-- # Why? -->]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/02/01/TIL-210130-210201/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210127</title>
@@ -261,34 +289,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/01/18/TIL-210118/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210116</title>
-      <link>https://codingppushu.github.io/2021/01/16/TIL-210116/</link>
-      <guid>https://codingppushu.github.io/2021/01/16/TIL-210116/</guid>
-      <pubDate>Sat, 16 Jan 2021 12:06:22 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;Data Structure&lt;/li&gt;
-&lt;li&gt;Modern Operators and String&lt;/l</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>Data Structure</li><li>Modern Operators and String</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>배열 분해<br><img src="/images/til/210116_til_kewords.jpg"></li></ul><!-- # Why? -->]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/01/16/TIL-210116/#disqus_thread</comments>
       
     </item>
     
