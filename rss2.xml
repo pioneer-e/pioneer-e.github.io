@@ -9,8 +9,38 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 09 Feb 2021 14:08:12 GMT</pubDate>
+    <pubDate>Fri, 12 Feb 2021 11:33:16 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210212</title>
+      <link>https://codingppushu.github.io/2021/02/12/TIL-210212/</link>
+      <guid>https://codingppushu.github.io/2021/02/12/TIL-210212/</guid>
+      <pubDate>Fri, 12 Feb 2021 11:03:18 GMT</pubDate>
+      
+        
+        
+      <description>&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th&gt;함수&lt;/th&gt;
+  &lt;th&gt;P?&lt;/th&gt;
+  &lt;th colspan=&#39;2&#39;&gt;함수는 늘 리턴값을 반환하고 프로토타입은 객체다&lt;/th&gt;
+  &lt;tr style=&quot;text-align:cent</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<table style="text-align:center">  <th>함수</th>  <th>P?</th>  <th colspan='2'>함수는 늘 리턴값을 반환하고 프로토타입은 객체다</th>  <tr style="text-align:center">    <td>함수 : 리턴값 반환</td>    <td>(일반함수, 메서드)<br>리턴값x <= undefined</td>    <td>(생성자 함수)<br>리턴값x <= 생성 객체<br>리턴값(객체) o <= 넘긴 객체<br>불린, 숫자, 문자열 무시</td>    <td>(객체 생성 규칙)<br>생성자 함수 prototype 프로퍼티 =><br> prototype 객체 =><br>부모 객체 취급([prototype] 링크연결)</td>  </tr>  <tr style="text-align:center">    <td>프로토타입 체이닝 =<br> 자신 프로퍼티 o<br> 부모 프로퍼티 접근 o</td>    <td>생성자 함수<br>프로토타입 체이닝 =<br> 객체 생성 규칙 동일</td>    <td>프로토타입 종점 =<br> Object.prototype 객체</td>    <td>프로토타입 = 객체 =><br> 동적으로 값 추가/삭제 o=><br> 실시간 프로토타입 체이닝 반영</td></table>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/02/12/TIL-210212/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210209</title>
@@ -277,34 +307,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/01/25/TIL-210125/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210123</title>
-      <link>https://codingppushu.github.io/2021/01/23/TIL-210123/</link>
-      <guid>https://codingppushu.github.io/2021/01/23/TIL-210123/</guid>
-      <pubDate>Sat, 23 Jan 2021 12:12:07 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;Data Structure&lt;/li&gt;
-&lt;li&gt;Modern Operators and String&lt;/l</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>Data Structure</li><li>Modern Operators and String</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>optional chaining (?)<br><img src="/images/til/210123_til_kewords.jpg"></li></ul><!-- # Why? -->]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/01/23/TIL-210123/#disqus_thread</comments>
       
     </item>
     
