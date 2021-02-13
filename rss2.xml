@@ -9,8 +9,39 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 13 Feb 2021 14:33:18 GMT</pubDate>
+    <pubDate>Sat, 13 Feb 2021 14:45:50 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210213</title>
+      <link>https://codingppushu.github.io/2021/02/13/TIL-210213/</link>
+      <guid>https://codingppushu.github.io/2021/02/13/TIL-210213/</guid>
+      <pubDate>Sat, 13 Feb 2021 14:26:21 GMT</pubDate>
+      
+        
+        
+      <description>&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th&gt;실행 컨텍스트&lt;/th&gt;
+  &lt;th&gt;P?&lt;/th&gt;
+  &lt;th colspan=&#39;2&#39;&gt;코드를 형상화하고 구분&lt;/th&gt;
+  &lt;tr style=&quot;text-align:center&quot;&gt;
+    </description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<table style="text-align:center">  <th>실행 컨텍스트</th>  <th>P?</th>  <th colspan='2'>코드를 형상화하고 구분</th>  <tr style="text-align:center">    <td>실행 가능한<br> 코드 블록이 실행되는 환경</td>    <td>활성 객체(= 변수 객체)<br>실행에 필요한 여러가지 정보를 담는 객체</td>    <td>arguments 객체 =><br>agruments 프로퍼티로 참조</td>    <td>유효범위 => 스코프 정보 생성</td>  </tr>  <tr style="text-align:center">    <td>내부 지역<br> 변수 생성</td>    <td>this 바인딩</td>    <td>코드실행 : 실행 컨텍스트 => 변수 => 코드</td>    <td></td>  </tr></table>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/02/13/TIL-210213/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210212</title>
@@ -279,34 +310,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/01/26/TIL-210126/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210125</title>
-      <link>https://codingppushu.github.io/2021/01/25/TIL-210125/</link>
-      <guid>https://codingppushu.github.io/2021/01/25/TIL-210125/</guid>
-      <pubDate>Mon, 25 Jan 2021 13:02:26 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;Data Structure&lt;/li&gt;
-&lt;li&gt;Modern Operators and String&lt;/l</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>Data Structure</li><li>Modern Operators and String</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>Set<br><img src="/images/til/210125_til_kewords.jpg"></li></ul><!-- # Why? -->]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/01/25/TIL-210125/#disqus_thread</comments>
       
     </item>
     
