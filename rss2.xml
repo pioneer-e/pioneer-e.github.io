@@ -9,8 +9,38 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 14 Feb 2021 14:56:18 GMT</pubDate>
+    <pubDate>Tue, 16 Feb 2021 14:06:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210216</title>
+      <link>https://codingppushu.github.io/2021/02/16/TIL-210216/</link>
+      <guid>https://codingppushu.github.io/2021/02/16/TIL-210216/</guid>
+      <pubDate>Tue, 16 Feb 2021 13:55:39 GMT</pubDate>
+      
+        
+        
+      <description>&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th&gt;클로저&lt;/th&gt;
+  &lt;th&gt;P?&lt;/th&gt;
+  &lt;th colspan=&#39;2&#39;&gt;생명 주기가 끝난 외부함수 변수를 참조하는 함수&lt;/th&gt;
+  &lt;tr style=&quot;text-align:cen</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<table style="text-align:center">  <th>클로저</th>  <th>P?</th>  <th colspan='2'>생명 주기가 끝난 외부함수 변수를 참조하는 함수</th>  <tr style="text-align:center">    <td>외부함수 호출 =><br> 새로운 함수 반환<br>(클로저/자유변수)</td>    <td>성능 문제 유발 o</td>    <td>함수 캡슐화</td>    <td>setTimeout() 지정<br> 함수의 사용자 정의</td>  </tr>  <tr style="text-align:center">    <td>특정 함수 =><br> 사용자 정의 객체의<br> 메서드 연결</td>    <td>프로퍼티값 쓰기 o =><br> 값 여러번 호출 =><br> 변할수 있음</td>    <td>하나의 클로저 =><br> 여러 함수 객체 스코프 체인</td>    <td>루프 안 주의</td>  </tr></table><h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/02/16/TIL-210216/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210214</title>
@@ -285,34 +315,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/02/01/TIL-210130-210201/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210127</title>
-      <link>https://codingppushu.github.io/2021/01/27/TIL-210127/</link>
-      <guid>https://codingppushu.github.io/2021/01/27/TIL-210127/</guid>
-      <pubDate>Wed, 27 Jan 2021 13:09:28 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;Data Structure&lt;/li&gt;
-&lt;li&gt;Modern Operators and String&lt;/l</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>Data Structure</li><li>Modern Operators and String</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><p><img src="/images/til/210127_til_kewords.jpg"></p><!--사용 할 수 있음 : 프로그램 소스 코드 내사용자 인터페이스 : 웹페이지외부 소스 : 웹API데이터 컬렉션 => 항상 가지고 있음, 즉 저장해야 함데이터 구조 arrays / sets objects / maps--><!-- # Why? -->]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/01/27/TIL-210127/#disqus_thread</comments>
       
     </item>
     
