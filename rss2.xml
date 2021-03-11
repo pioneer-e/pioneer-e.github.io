@@ -9,8 +9,37 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 22 Feb 2021 10:35:29 GMT</pubDate>
+    <pubDate>Thu, 11 Mar 2021 14:07:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210311</title>
+      <link>https://codingppushu.github.io/2021/03/11/TIL-210311/</link>
+      <guid>https://codingppushu.github.io/2021/03/11/TIL-210311/</guid>
+      <pubDate>Thu, 11 Mar 2021 14:07:52 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;인사이드 자바스크립트 =&amp;gt; 완독&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Udemy JS 강의 진</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li><p>인사이드 자바스크립트 =&gt; 완독</p></li><li><p>Udemy JS 강의 진행 중 =&gt; 배열 문법</p></li><li><p>키워드</p><table style="text-align:center"><tr style="text-align:center; background-color:#fff">  <td>forEach</td>  <td>map</td>  <td>set</td>  <td>filter</td>  <td>reduce</td>  <td>DOM 요소 생성</td></tr></table></li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>진도, 공부 내용 키워드로 업로드 진행 =&gt; 핵심 키워드 추출 (output)</li><li>관련 서적 반복해서 읽기 =&gt; 생각하고 이해하기</li><li>책과 실습 동시 진행 =&gt; 응용하기</li><li>복습하기 =&gt; 이해력 높이기</li></ul><h1 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h1><ul><li>무의미한 진도빼기 지양하기 위함</li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/03/11/TIL-210311/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210219-210222</title>
@@ -285,36 +314,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/02/04/TIL-210204/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210203</title>
-      <link>https://codingppushu.github.io/2021/02/03/TIL-210203/</link>
-      <guid>https://codingppushu.github.io/2021/02/03/TIL-210203/</guid>
-      <pubDate>Wed, 03 Feb 2021 13:45:31 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;A Closer Look at Functions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;How</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>A Closer Look at Functions</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><p><img src="/images/til/210203_til_kewords.jpg"></p><!--함수 살펴보기default parametersarguments value 값 전달 reference 참조 전달functions first-class 함수는 값 자체 higher-order 인자로 전달 반환--><!-- # Why? -->]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/02/03/TIL-210203/#disqus_thread</comments>
       
     </item>
     
