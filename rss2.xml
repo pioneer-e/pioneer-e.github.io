@@ -57,7 +57,7 @@
       
       
       
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li><p>인사이드 자바스크립트 =&gt; 완독</p></li><li><p>Udemy JS 강의 진행 중 =&gt; 배열 문법</p></li><li><p>키워드</p><table style="text-align:center"><tr style="text-align:center; background-color:#fff">  <td>forEach</td>  <td>map</td>  <td>set</td>  <td>filter</td>  <td>reduce</td>  <td>DOM 요소 생성</td></tr></table></li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>진도, 공부 내용 키워드로 업로드 진행 =&gt; 핵심 키워드 추출 (output)</li><li>관련 서적 반복해서 읽기 =&gt; 생각하고 이해하기</li><li>책과 실습 동시 진행 =&gt; 응용하기</li><li>복습하기 =&gt; 이해력 높이기</li></ul><h1 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h1><ul><li>무의미한 진도빼기 지양하기 위함</li></ul>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li><p>인사이드 자바스크립트 =&gt; 완독</p></li><li><p>Udemy JS 강의 진행 중 =&gt; 배열 문법</p></li><li><p>키워드</p><table style="text-align:center"><tr style="text-align:center; background-color:#fff">  <td>forEach</td>  <td>map</td>  <td>set</td>  <td>filter</td>  <td>reduce</td>  <td>DOM 요소 생성</td></tr></table></li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>진도, 공부 내용 키워드로 업로드 진행 =&gt; 핵심 키워드 추출 (output)</li><li>관련 서적 반복해서 읽기 =&gt; 생각하고 이해하기</li><li>책과 실습 동시 진행 =&gt; 응용하기</li><li>복습하기 =&gt; 이해력 높이기</li></ul><hr><h1 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h1><ul><li>무의미한 진도빼기 지양하기 위함</li></ul>]]></content:encoded>
       
       
       <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
