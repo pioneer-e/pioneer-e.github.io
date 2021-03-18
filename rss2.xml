@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 17 Mar 2021 14:57:20 GMT</pubDate>
+    <pubDate>Thu, 18 Mar 2021 14:37:19 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210318</title>
+      <link>https://codingppushu.github.io/2021/03/18/TIL-210318/</link>
+      <guid>https://codingppushu.github.io/2021/03/18/TIL-210318/</guid>
+      <pubDate>Thu, 18 Mar 2021 14:50:19 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Project 진행 중..&lt;br&gt;=&amp;gt; 사이트 벤치마킹 하다 보니 따로 코딩 공부를 하지 못했</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>Project 진행 중..<br>=&gt; 사이트 벤치마킹 하다 보니 따로 코딩 공부를 하지 못했다..하하<br>금방 끝날 줄 알았는데 생각보다 확인할 내용이 많아 시간이 오래 걸렸다.<br>아무래도 오늘 다하긴 무리일 것 같고 내일 이어서 작업해야겠다. 😁</li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/03/18/TIL-210318/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210317</title>
@@ -264,37 +291,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/02/16/TIL-210216/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210214</title>
-      <link>https://codingppushu.github.io/2021/02/14/TIL-210214/</link>
-      <guid>https://codingppushu.github.io/2021/02/14/TIL-210214/</guid>
-      <pubDate>Sun, 14 Feb 2021 14:30:37 GMT</pubDate>
-      
-        
-        
-      <description>&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th&gt;스코프 체인&lt;/th&gt;
-  &lt;th&gt;P?&lt;/th&gt;
-  &lt;th colspan=&#39;2&#39;&gt;함수 객체 내 연결 리스트&lt;/th&gt;
-  &lt;tr style=&quot;text-align:center&quot;&gt;
-   </description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<table style="text-align:center">  <th>스코프 체인</th>  <th>P?</th>  <th colspan='2'>함수 객체 내 연결 리스트</th>  <tr style="text-align:center">    <td>스코프 : 유효범위</td>    <td>각 함수 객체 [scope] 프로퍼티 => 현재 컨텍스트의 스코프체인 참조</td>    <td>실행 함수 객체의<br> [scope] 프로퍼티 복사, 새 변수 객체 해당 체인 제일 앞에 추가</td>    <td>현재 실행 컨텍스트 변수 객체</td>  </tr>  <tr style="text-align:center">    <td>상위 컨텍스트 스코프 체인</td>    <td>식별자 인식 => 첫번째 변수 객체부터 시작</td>    <td>this = 키워드로 분류됨</td>    <td></td>  </tr></table>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/02/14/TIL-210214/#disqus_thread</comments>
       
     </item>
     
