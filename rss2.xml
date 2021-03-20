@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 19 Mar 2021 14:51:30 GMT</pubDate>
+    <pubDate>Sat, 20 Mar 2021 14:57:35 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210320</title>
+      <link>https://codingppushu.github.io/2021/03/20/TIL-210320/</link>
+      <guid>https://codingppushu.github.io/2021/03/20/TIL-210320/</guid>
+      <pubDate>Sat, 20 Mar 2021 13:36:34 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;CSS - 작동 방식</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>CSS - 작동 방식</th>  <tr style="text-align:center; background-color:#fff">    <td>시각적 서식 모델</td>    <td>아키텍처, 구성 요소, BEM(Block, Element, Modifier)</td>  </tr> </table><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>CSS 강좌에서 웹 개발에 대한 구성 요소 기반 접근 방식인 BEM 방법론을 배웠다.<br>일단 이런 방법론이 있다는 걸 처음 알았고, 알게돼서 다행이라고 생각했다. 작업할 때 적용하면 인터페이스 개발을 쉽고 빠르게 할 수 있을 것 같다.</li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/03/20/TIL-210320/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210319</title>
@@ -260,34 +287,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/03/11/TIL-210311/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210219-210222</title>
-      <link>https://codingppushu.github.io/2021/02/22/TIL-210219-210222/</link>
-      <guid>https://codingppushu.github.io/2021/02/22/TIL-210219-210222/</guid>
-      <pubDate>Mon, 22 Feb 2021 10:20:52 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;현재 ‘인사이드 자바스크립트’책과 ‘유데미 JS 강의’로 공부 진행 중&lt;/li&gt;
-&lt;li&gt;인사이드 </description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>현재 ‘인사이드 자바스크립트’책과 ‘유데미 JS 강의’로 공부 진행 중</li><li>인사이드 자바스크립트 =&gt; 2번째 책</li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li><p>책 : 객체지향 프로그래밍 내용 들어가기 전, 이전 내용에 대한 개념 복습 진행 중</p></li><li><p>강의 : 클로저까지 진행 (책 진도와 맞추기 위함)</p></li><li><p>개요, 환경, 데이터 타입과 연산자 진행 완료</p></li></ul><h1 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h1><ul><li>개념에 대한 이해도가 떨어지는 걸 느낌 =&gt; 개념 숙지를 위한 복습 진행</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/02/22/TIL-210219-210222/#disqus_thread</comments>
       
     </item>
     
