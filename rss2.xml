@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 20 Mar 2021 14:57:35 GMT</pubDate>
+    <pubDate>Sun, 21 Mar 2021 11:13:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210321</title>
+      <link>https://codingppushu.github.io/2021/03/21/TIL-210321/</link>
+      <guid>https://codingppushu.github.io/2021/03/21/TIL-210321/</guid>
+      <pubDate>Sun, 21 Mar 2021 11:05:45 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;JS - Event,</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>JS - Event, DOM</th>  <tr style="text-align:center; background-color:#fff">    <td>IntersectionObserver()</td>    <td>async vs defer</td>    <td>oop - abstraction, encapsulation,<br>inheritance, polymorphism</td>  </tr> </table><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>DOM, Events 내용을 마무리하고 OOP를 배우고 있다.<br>뒤로 갈수록 자바스크립트의 세계는 무궁무진하다는 걸 느꼈다.<br>(점점 어려워지는 건 덤이고🤣)</li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/03/21/TIL-210321/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210320</title>
@@ -258,35 +285,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/03/12/TIL-210312/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210311</title>
-      <link>https://codingppushu.github.io/2021/03/11/TIL-210311/</link>
-      <guid>https://codingppushu.github.io/2021/03/11/TIL-210311/</guid>
-      <pubDate>Thu, 11 Mar 2021 14:07:52 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;인사이드 자바스크립트 =&amp;gt; 완독&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Udemy JS 강의 진</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li><p>인사이드 자바스크립트 =&gt; 완독</p></li><li><p>Udemy JS 강의 진행 중 =&gt; 배열 문법</p></li><li><p>키워드</p><table style="text-align:center"><tr style="text-align:center; background-color:#fff">  <td>forEach</td>  <td>map</td>  <td>set</td>  <td>filter</td>  <td>reduce</td>  <td>DOM 요소 생성</td></tr></table></li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>진도, 공부 내용 키워드로 업로드 진행 =&gt; 핵심 키워드 추출 (output)</li><li>관련 서적 반복해서 읽기 =&gt; 생각하고 이해하기</li><li>책과 실습 동시 진행 =&gt; 응용하기</li><li>복습하기 =&gt; 이해력 높이기</li></ul><hr><h1 id="Why"><a href="#Why" class="headerlink" title="Why?"></a>Why?</h1><ul><li>무의미한 진도빼기 지양하기 위함</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/03/11/TIL-210311/#disqus_thread</comments>
       
     </item>
     
