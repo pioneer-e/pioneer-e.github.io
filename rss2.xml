@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 22 Mar 2021 14:58:20 GMT</pubDate>
+    <pubDate>Tue, 23 Mar 2021 14:51:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210323</title>
+      <link>https://codingppushu.github.io/2021/03/23/TIL-210323/</link>
+      <guid>https://codingppushu.github.io/2021/03/23/TIL-210323/</guid>
+      <pubDate>Tue, 23 Mar 2021 14:43:17 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;CSS - Sass,</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>CSS - Sass, JS - OOP, Map</th>  <tr style="text-align:center; background-color:#fff">    <td>Sass mix, 확장 및 기능</td>    <td>command 간단 활용법 숙지<br> (폴더 생성, 추가, 삭제, 이동)</td>    <td>라이브러리 공식 문서 이용<br> => map 마커 표시</td>  </tr> </table><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>유데미 강좌 수강 진행 완료</li><li>팀 project 진행중..<br>=&gt; pc, mobile 레이아웃, 콘텐츠 수정</li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/03/23/TIL-210323/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210322</title>
@@ -254,35 +281,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/03/14/TIL-210314/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210313</title>
-      <link>https://codingppushu.github.io/2021/03/13/TIL-210313/</link>
-      <guid>https://codingppushu.github.io/2021/03/13/TIL-210313/</guid>
-      <pubDate>Fri, 12 Mar 2021 15:22:52 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Udemy JS 강의 진행 중 =&amp;gt; 배열 문법&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;키워드&lt;/</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li><p>Udemy JS 강의 진행 중 =&gt; 배열 문법</p></li><li><p>키워드</p><table style="text-align:center"><tr style="text-align:center; background-color:#fff">  <td>로그인 구현 => 이벤트 차단,<br> preventDefault, find,<br> optional chaining</td>  <td>findindex</td>  <td>includes</td>  <td>some</td></tr><tr style="text-align:center; background-color:#fff">  <td>every</td>  <td>flat, flatmap</td>  <td></td>  <td></td></tr></table></li></ul><hr><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>간단한 bankist app 구현</li><li>버튼 요소에 이벤트 리스너 등록 (로그인 기능, 사용자 데이터 이전, 사용자 삭제)</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/03/13/TIL-210313/#disqus_thread</comments>
       
     </item>
     
