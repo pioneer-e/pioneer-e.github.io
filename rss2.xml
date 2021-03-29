@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 27 Mar 2021 15:01:25 GMT</pubDate>
+    <pubDate>Mon, 29 Mar 2021 14:30:03 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210329</title>
+      <link>https://codingppushu.github.io/2021/03/29/TIL-210329/</link>
+      <guid>https://codingppushu.github.io/2021/03/29/TIL-210329/</guid>
+      <pubDate>Mon, 29 Mar 2021 14:05:38 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;Fullstack -</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>Fullstack - Clone Coding</th>  <tr style="text-align:center; background-color:#fff">    <td>node.js</td>    <td>express.js =><br> npm, routes, bable</td>    <td>express core =><br> middlewares, routing</td>    <td>MVC Pattern</td>  </tr>    <tr style="text-align:center; background-color:#fff">    <td>recap</td>    <td>pug => layouts, partials</td>    <td></td>    <td></td>  </tr> </table><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li><p>node.js, express.js =&gt; 서버 구축</p></li><li><p>babel =&gt; 자바스크립트 최신코드 사용하기 위해 설치</p></li><li><p>middleware =&gt; 미들웨어 설치 (로그, 보안, 쿠키, form 데이터 관련 / connection 다룸)</p></li><li><p>Routing =&gt; route를 카테고리별로 쪼개서 묶음</p></li><li><p>controllers =&gt; 함수들 추가</p><ul><li>보통 프로젝트에 있는 각 모델마다 컨트롤러를 만든다.</li></ul></li><li><p>url과 함수 분리 =&gt; 데이터 모습에 맞춤</p></li><li><p>MVC Pattern</p><ul><li>Model : data</li><li>View : data가 어떻게 생겼는지</li><li>control : data를 보여주기 위한 함수</li><li>pug.js =&gt; 템플릿 언어이며 view를 다루는 방식 중 하나<ul><li>layouts =&gt; block content를 통해 다른 화면을 쉽게 구성 가능</li><li>partials =&gt; extends로 템플릿 확장</li><li>local 기능 이용해 변수에 접근</li></ul></li></ul></li><li><p>팀 project 진행중..</p></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/03/29/TIL-210329/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210327</title>
@@ -252,33 +279,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/03/19/TIL-210319/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210318</title>
-      <link>https://codingppushu.github.io/2021/03/18/TIL-210318/</link>
-      <guid>https://codingppushu.github.io/2021/03/18/TIL-210318/</guid>
-      <pubDate>Thu, 18 Mar 2021 14:50:19 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;Project 진행 중..&lt;br&gt;=&amp;gt; 사이트 벤치마킹 하다 보니 따로 코딩 공부를 하지 못했</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>Project 진행 중..<br>=&gt; 사이트 벤치마킹 하다 보니 따로 코딩 공부를 하지 못했다..하하<br>금방 끝날 줄 알았는데 생각보다 확인할 내용이 많아 시간이 오래 걸렸다.<br>아무래도 오늘 다하긴 무리일 것 같고 내일 이어서 작업해야겠다. 😁</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/03/18/TIL-210318/#disqus_thread</comments>
       
     </item>
     
