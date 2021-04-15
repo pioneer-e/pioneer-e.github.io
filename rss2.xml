@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 14 Apr 2021 10:28:12 GMT</pubDate>
+    <pubDate>Thu, 15 Apr 2021 14:14:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210415</title>
+      <link>https://codingppushu.github.io/2021/04/15/TIL-210415/</link>
+      <guid>https://codingppushu.github.io/2021/04/15/TIL-210415/</guid>
+      <pubDate>Thu, 15 Apr 2021 14:09:39 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;HTML/CSS&lt;/t</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>HTML/CSS</th>  <tr style="text-align:center; background-color:#fff">    <td>img align</td>    <td>text align</td>    <td>selector 우선순위</td>    <td>레이아웃 디자인 원칙</td>  </tr>  <tr style="text-align:center; background-color:#fff">    <td>float / inline-block</td>    <td>float bug</td>    <td></td>    <td></td>  </tr></table>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/04/15/TIL-210415/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210414</title>
@@ -252,33 +279,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/04/02/TIL-210402/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210401</title>
-      <link>https://codingppushu.github.io/2021/04/01/TIL-210401/</link>
-      <guid>https://codingppushu.github.io/2021/04/01/TIL-210401/</guid>
-      <pubDate>Thu, 01 Apr 2021 14:48:35 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th colspan=&#39;4&#39;&gt;Full stack </description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>Full stack - Clone Coding</th>  <tr style="text-align:center; background-color:#fff">    <td>mongoDB</td>    <td>file</td>    <td>model</td>    <td>schema</td>  </tr>    <tr style="text-align:center; background-color:#fff">    <td>dotenv</td>    <td>mongoose</td>    <td></td>    <td></td>  </tr> </table><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li><p>More Controlers<br>=&gt; 상세 페이지 다이렉션 구현, 로그아웃 처리, upload(get/post) 처리 구현<br>=&gt; 요약 : 라우팅 처리 잘해야됨</p></li><li><p>MONGODB<br>=&gt; NoSQL 데이터베이스이며 적은 규칙과 절차로 작업이 가능해 가볍고 쉽게 다룰 수 있음<br>=&gt; 생성이 빠르고 엄격하지 않아 채팅 프로그램 등에 적합</p></li><li><p>Connecting to MongoDB<br>=&gt; String으로 된 데이터 베이스 요청</p></li><li><p>Configuring Dot Env<br>=&gt; .env : dotenv.config 로 .env 파일 불러옴<br>=&gt; 변수들을 process.env에 넣음</p></li><li><p>Video Model<br>=&gt; 데이터가 어떻게 생겨야 할지 알려준다.<br>=&gt; file/model/schema</p></li><li><p>팀 project 진행중..</p></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/04/01/TIL-210401/#disqus_thread</comments>
       
     </item>
     
