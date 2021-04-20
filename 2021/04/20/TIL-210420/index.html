@@ -20,20 +20,20 @@
     var CONFIG = {"hostname":"codingppushu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="함수   P?   호출 패턴에 따른 this 바인딩과 명시적 this 바인딩        객체 메서드 호출 this 바인딩     함수 호출 this 바인딩(내부 함수 동일)     생성자 함수 호출 this 바인딩     생성자 함수 동작(빈 객체 및 바인딩 &#x3D;&gt;this 프로퍼티 생성 &#x3D;&gt;생성 객체 리턴)           객체 리터럴 vs 생성자">
+  <meta name="description" content="What?   HTML&#x2F;CSS&#x2F;JS(clone project)        부트스트랩 이용한 레이아웃 구현     CSS 덮어쓰기      볼륨 바 기능 구현       부트스트랩 문서 확인하며 sns profile 레이아웃 작업 진행 CSS 덮어쓰기의 중요성 숙지 최솟값, 최댓값 range 안올라가는 경우 padding 제거 input 속성 range 와">
 <meta property="og:type" content="article">
-<meta property="og:title" content="TIL-210209">
-<meta property="og:url" content="https://codingppushu.github.io/2021/02/09/TIL-210209/index.html">
+<meta property="og:title" content="TIL-210420">
+<meta property="og:url" content="https://codingppushu.github.io/2021/04/20/TIL-210420/index.html">
 <meta property="og:site_name" content="codingPpushu&#39;s dev story">
-<meta property="og:description" content="함수   P?   호출 패턴에 따른 this 바인딩과 명시적 this 바인딩        객체 메서드 호출 this 바인딩     함수 호출 this 바인딩(내부 함수 동일)     생성자 함수 호출 this 바인딩     생성자 함수 동작(빈 객체 및 바인딩 &#x3D;&gt;this 프로퍼티 생성 &#x3D;&gt;생성 객체 리턴)           객체 리터럴 vs 생성자">
+<meta property="og:description" content="What?   HTML&#x2F;CSS&#x2F;JS(clone project)        부트스트랩 이용한 레이아웃 구현     CSS 덮어쓰기      볼륨 바 기능 구현       부트스트랩 문서 확인하며 sns profile 레이아웃 작업 진행 CSS 덮어쓰기의 중요성 숙지 최솟값, 최댓값 range 안올라가는 경우 padding 제거 input 속성 range 와">
 <meta property="og:locale" content="ko_KR">
-<meta property="article:published_time" content="2021-02-09T01:54:33.000Z">
-<meta property="article:modified_time" content="2021-02-09T14:08:12.714Z">
+<meta property="article:published_time" content="2021-04-20T14:41:12.000Z">
+<meta property="article:modified_time" content="2021-04-20T14:50:09.870Z">
 <meta property="article:author" content="codingPpushu">
 <meta property="article:tag" content="TIL">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://codingppushu.github.io/2021/02/09/TIL-210209/">
+<link rel="canonical" href="https://codingppushu.github.io/2021/04/20/TIL-210420/">
 
 
 <script id="page-configurations">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>TIL-210209 | codingPpushu's dev story</title>
+  <title>TIL-210420 | codingPpushu's dev story</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZL1DFSNPM"></script>
     <script>
@@ -172,7 +172,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/02/09/TIL-210209/">
+    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/04/20/TIL-210420/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -185,7 +185,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          TIL-210209
+          TIL-210420
         </h1>
 
         <div class="post-meta">
@@ -196,7 +196,7 @@
               <span class="post-meta-item-text">작성일</span>
               
 
-              <time title="Post created: 2021-02-09 10:54:33 / Updated at: 23:08:12" itemprop="dateCreated datePublished" datetime="2021-02-09T10:54:33+09:00">2021-02-09</time>
+              <time title="Post created: 2021-04-20 23:41:12 / Updated at: 23:50:09" itemprop="dateCreated datePublished" datetime="2021-04-20T23:41:12+09:00">2021-04-20</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -224,8 +224,8 @@
       </span>
       <span class="post-meta-item-text">Disqus: </span>
     
-    <a title="disqus" href="/2021/02/09/TIL-210209/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/02/09/TIL-210209/" itemprop="commentCount"></span>
+    <a title="disqus" href="/2021/04/20/TIL-210420/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/04/20/TIL-210420/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -240,22 +240,21 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <table style="text-align:center">
-  <th>함수</th>
-  <th>P?</th>
-  <th colspan='2'>호출 패턴에 따른 this 바인딩과 명시적 this 바인딩</th>
-  <tr>
-    <td>객체 메서드<br> 호출 this 바인딩</td>
-    <td>함수 호출 this 바인딩<br>(내부 함수 동일)</td>
-    <td>생성자 함수 호출<br> this 바인딩</td>
-    <td>생성자 함수 동작<br>(빈 객체 및 바인딩 =><br>this 프로퍼티 생성 =><br>생성 객체 리턴)</td>
+        <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
+  <th colspan='4'>HTML/CSS/JS(clone project)</th>
+  <tr style="text-align:center; background-color:#fff">
+    <td>부트스트랩 이용한 레이아웃 구현</td>
+    <td>CSS 덮어쓰기 </td>
+    <td>볼륨 바 기능 구현</td>
   </tr>
-  <tr>
-    <td>객체 리터럴 vs 생성자 함수<br>(프로토타입 객체 다름)</td>
-    <td>call, apply 메서드<br>(명시적 this 바인딩)</td>
-    <td>apply() : 원하는 값 매핑해<br> 특정함수, 메서드 호출</td>
-    <td></td>
 </table>
+
+<ul>
+<li>부트스트랩 문서 확인하며 sns profile 레이아웃 작업 진행</li>
+<li>CSS 덮어쓰기의 중요성 숙지</li>
+<li>최솟값, 최댓값 range 안올라가는 경우 padding 제거</li>
+<li>input 속성 range 와 value 값 이용하여 볼륨 바 기능 구현 (볼륨 범위에 따른 아이콘 변화, 음소거, 음소거 해제시 기존 볼륨값 복원)</li>
+</ul>
 
     </div>
 
@@ -274,13 +273,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/02/08/TIL-210208/" rel="prev" title="TIL-210208">
-      <i class="fa fa-chevron-left"></i> TIL-210208
+    <a href="/2021/04/19/TIL-210419/" rel="prev" title="TIL-210419">
+      <i class="fa fa-chevron-left"></i> TIL-210419
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/02/12/TIL-210212/" rel="next" title="TIL-210212">
-      TIL-210212 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -346,6 +342,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#What"><span class="nav-number">1.</span> <span class="nav-text">What?</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -498,9 +495,9 @@
 </script>
 <script>
   var disqus_config = function() {
-    this.page.url = "https://codingppushu.github.io/2021/02/09/TIL-210209/";
-    this.page.identifier = "2021/02/09/TIL-210209/";
-    this.page.title = "TIL-210209";
+    this.page.url = "https://codingppushu.github.io/2021/04/20/TIL-210420/";
+    this.page.identifier = "2021/04/20/TIL-210420/";
+    this.page.title = "TIL-210420";
     };
   NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
     if (window.DISQUS) {
