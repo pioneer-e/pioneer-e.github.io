@@ -20,16 +20,20 @@
     var CONFIG = {"hostname":"codingppushu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="codingPpushu&#39;s dev story">
-<meta property="og:url" content="https://codingppushu.github.io/tags/TIL/page/4/index.html">
+  <meta name="description" content="What?   JS-UI 개발, clone project        슬라이드 다운 모달창     정규식 이메일 형식&#x2F;비밀번호 검증     이미지 슬라이드     미디어 api       슬라이드 다운 모달창 스크립트 구현 정규식 : 문자를 검사하고 싶을 때 사용하는 식 슬래시 기호로 표현   이미지 슬라이드 스크립트 구현 미디어 api로 카메라, 오디오값">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TIL-210421">
+<meta property="og:url" content="https://codingppushu.github.io/2021/04/21/TIL-210421/index.html">
 <meta property="og:site_name" content="codingPpushu&#39;s dev story">
+<meta property="og:description" content="What?   JS-UI 개발, clone project        슬라이드 다운 모달창     정규식 이메일 형식&#x2F;비밀번호 검증     이미지 슬라이드     미디어 api       슬라이드 다운 모달창 스크립트 구현 정규식 : 문자를 검사하고 싶을 때 사용하는 식 슬래시 기호로 표현   이미지 슬라이드 스크립트 구현 미디어 api로 카메라, 오디오값">
 <meta property="og:locale" content="ko_KR">
+<meta property="article:published_time" content="2021-04-21T14:50:59.000Z">
+<meta property="article:modified_time" content="2021-04-21T14:58:37.244Z">
 <meta property="article:author" content="codingPpushu">
-<meta property="article:tag" content="html,css,javascript,nodejs">
+<meta property="article:tag" content="TIL">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://codingppushu.github.io/tags/TIL/page/4/">
+<link rel="canonical" href="https://codingppushu.github.io/2021/04/21/TIL-210421/">
 
 
 <script id="page-configurations">
@@ -37,12 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'ko'
   };
 </script>
 
-  <title>태그: TIL | codingPpushu's dev story</title>
+  <title>TIL-210421 | codingPpushu's dev story</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZL1DFSNPM"></script>
     <script>
@@ -161,240 +165,147 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/04/21/TIL-210421/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="codingPpushu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="codingPpushu's dev story">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          TIL-210421
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">작성일</span>
+              
+
+              <time title="Post created: 2021-04-21 23:50:59 / Updated at: 23:58:37" itemprop="dateCreated datePublished" datetime="2021-04-21T23:50:59+09:00">2021-04-21</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">TIL
-          <small>태그</small>
-        </h2>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2021/04/21/TIL-210421/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/04/21/TIL-210421/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
-    </div>
+        <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
+  <th colspan='4'>JS-UI 개발, clone project</th>
+  <tr style="text-align:center; background-color:#fff">
+    <td>슬라이드 다운 모달창</td>
+    <td>정규식 이메일 형식/비밀번호 검증</td>
+    <td>이미지 슬라이드</td>
+    <td>미디어 api</td>
+  </tr>
+</table>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-15T00:04:24+09:00"
-              content="2021-03-15">
-          03-15
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/15/TIL-210315/" itemprop="url">
-            <span itemprop="name">TIL-210315</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-14T23:24:32+09:00"
-              content="2021-03-14">
-          03-14
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/14/TIL-210314/" itemprop="url">
-            <span itemprop="name">TIL-210314</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-13T00:22:52+09:00"
-              content="2021-03-13">
-          03-13
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/13/TIL-210313/" itemprop="url">
-            <span itemprop="name">TIL-210313</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-12T23:53:52+09:00"
-              content="2021-03-12">
-          03-12
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/12/TIL-210312/" itemprop="url">
-            <span itemprop="name">TIL-210312</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-11T23:07:52+09:00"
-              content="2021-03-11">
-          03-11
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/11/TIL-210311/" itemprop="url">
-            <span itemprop="name">TIL-210311</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-02-22T19:20:52+09:00"
-              content="2021-02-22">
-          02-22
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/02/22/TIL-210219-210222/" itemprop="url">
-            <span itemprop="name">TIL-210219-210222</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-02-16T22:55:39+09:00"
-              content="2021-02-16">
-          02-16
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/02/16/TIL-210216/" itemprop="url">
-            <span itemprop="name">TIL-210216</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-02-14T23:30:37+09:00"
-              content="2021-02-14">
-          02-14
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/02/14/TIL-210214/" itemprop="url">
-            <span itemprop="name">TIL-210214</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-02-13T23:26:21+09:00"
-              content="2021-02-13">
-          02-13
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/02/13/TIL-210213/" itemprop="url">
-            <span itemprop="name">TIL-210213</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-02-12T20:03:18+09:00"
-              content="2021-02-12">
-          02-12
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/02/12/TIL-210212/" itemprop="url">
-            <span itemprop="name">TIL-210212</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
+<ul>
+<li>슬라이드 다운 모달창 스크립트 구현</li>
+<li>정규식 : 문자를 검사하고 싶을 때 사용하는 식<ul>
+<li>슬래시 기호로 표현</li>
+</ul>
+</li>
+<li>이미지 슬라이드 스크립트 구현</li>
+<li>미디어 api로 카메라, 오디오값 불러옴</li>
+<li>녹화 기능을 위해 함수 추가</li>
+<li>미디어 레코더는 기본값이 한번에 모든걸 저장함<ul>
+<li>타이머 함수를 추가해 매초마다 이벤트에 기록되게 수정</li>
+</ul>
+</li>
+<li>blob을 받고 다운로드 기능을 위해 링크를 얻음</li>
+</ul>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/TIL/" rel="tag"># TIL</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/04/20/TIL-210420/" rel="prev" title="TIL-210420">
+      <i class="fa fa-chevron-left"></i> TIL-210420
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
   
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/tags/TIL/page/3/"><i class="fa fa-angle-left" aria-label="이전 페이지"></i></a><a class="page-number" href="/tags/TIL/">1</a><span class="space">&hellip;</span><a class="page-number" href="/tags/TIL/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/tags/TIL/page/5/">5</a><a class="page-number" href="/tags/TIL/page/6/">6</a><a class="extend next" rel="next" href="/tags/TIL/page/5/"><i class="fa fa-angle-right" aria-label="다음 페이지"></i></a>
-  </nav>
+  
+  
 
 
 
           </div>
           
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -441,6 +352,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#What"><span class="nav-number">1.</span> <span class="nav-text">What?</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -590,6 +502,26 @@
   }
   // defer loading until the whole page loading is completed
   window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://codingppushu.github.io/2021/04/21/TIL-210421/";
+    this.page.identifier = "2021/04/21/TIL-210421/";
+    this.page.title = "TIL-210421";
+    };
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://codingppushu-blog.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
 </script>
 
 </body>
