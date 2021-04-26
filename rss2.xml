@@ -9,7 +9,7 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 26 Apr 2021 14:55:28 GMT</pubDate>
+    <pubDate>Mon, 26 Apr 2021 14:57:19 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -26,7 +26,7 @@
       
       
       
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>JS-객체지향, ES6문법</th>  <tr style="text-align:center; background-color:#fff">    <td>this</td>    <td>Array Function</td>    <td>var, let, const</td>    <td>scroll animation</td>  </tr>  <tr style="text-align:center; background-color:#fff">    <td>hammer.js</td>    <td>setTimeout</td>    <td></td>    <td></td>  </tr></table><ul><li>this<ul><li>window, object, eventlistener, constructor</li><li>이벤트리스너 안에서 콜백함수를 쓰면 window</li><li>object 안에서 콜백함수를 쓰면 window</li><li>function을 만날 때마다 바뀐다.</li></ul></li><li>Array Function<ul><li>내부 this 값을 새로 바꾸지 않음</li><li>사용법 숙지</li></ul></li><li>변수 문법 정리<ul><li>선언, 할당, 범위, 호이스팅</li><li>var, let, const</li></ul></li></ul><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>다시 한번 개념에 관한 공부가 중요하다는 걸 느끼게 되었다. this 키워드에 대해선 어떠한 방식으로 접근하는지에 대해서 간략하게 알고 있었지만, 이번 공부로 놓치고 지나간 부분에 대해 자세히 알게 되었고, 앞으로는 잘 적용할 수 있을 것 같다. 그리고 나머지 변수, array function도 마찬가지로 이전보다 더 깊게 공부하는 계기가 되었다.</li></ul>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>JS-객체지향, ES6문법</th>  <tr style="text-align:center; background-color:#fff">    <td>this</td>    <td>Array Function</td>    <td>var, let, const</td>  </tr></table><ul><li>this<ul><li>window, object, eventlistener, constructor</li><li>이벤트리스너 안에서 콜백함수를 쓰면 window</li><li>object 안에서 콜백함수를 쓰면 window</li><li>function을 만날 때마다 바뀐다.</li></ul></li><li>Array Function<ul><li>내부 this 값을 새로 바꾸지 않음</li><li>사용법 숙지</li></ul></li><li>변수 문법 정리<ul><li>선언, 할당, 범위, 호이스팅</li><li>var, let, const</li></ul></li></ul><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>다시 한번 개념에 관한 공부가 중요하다는 걸 느끼게 되었다. this 키워드에 대해선 어떠한 방식으로 접근하는지에 대해서 간략하게 알고 있었지만, 이번 공부로 놓치고 지나간 부분에 대해 자세히 알게 되었고, 앞으로는 잘 적용할 수 있을 것 같다. 그리고 나머지 변수, array function도 마찬가지로 이전보다 더 깊게 공부하는 계기가 되었다.</li></ul>]]></content:encoded>
       
       
       <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
