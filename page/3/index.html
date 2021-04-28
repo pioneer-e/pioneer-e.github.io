@@ -167,6 +167,115 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/04/02/TIL-210402/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="codingPpushu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="codingPpushu's dev story">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/04/02/TIL-210402/" class="post-title-link" itemprop="url">TIL-210402</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">작성일</span>
+              
+
+              <time title="Post created: 2021-04-02 23:35:12 / Updated at: 23:50:20" itemprop="dateCreated datePublished" datetime="2021-04-02T23:35:12+09:00">2021-04-02</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2021/04/02/TIL-210402/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/04/02/TIL-210402/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
+  <th colspan='4'>Full stack - Clone Coding</th>
+  <tr style="text-align:center; background-color:#fff">
+    <td>relationship</td>
+    <td>async / await</td>
+    <td>try catch</td>
+    <td>multer</td>
+  </tr>
+    <tr style="text-align:center; background-color:#fff">
+    <td>mongdb database</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+ </table>
+
+<h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul>
+<li><p>Comment Model<br>=&gt; relationship : 서로 다른 Schema를 가진 데이터가 문맥상(웹 상에서) 연관성을 가지고 있을 때 서로의 Schema를 ref를 통해 연결 시켜준다. / id(데이터 이름)만 넘기는 방식</p>
+</li>
+<li><p>Home Controller<br>=&gt; async / await : 프라미스 반환 / 프라미스 처리를 기다린다 (결과는 그 이후 반환)<br>=&gt; try catch : error를 잡아서 throw 해준다</p>
+</li>
+<li><p>Uploading and Creating a Video<br>=&gt; file upload시 파일 자체를 db에 저장하는 것이 아닌 file의 location을 넘긴다.<br>=&gt; file을 Upload하고 URL을 반환하는 middleware를 만든다.<br>=&gt; multer 설치 후 video 폴더 재지정<br>=&gt; mongdb database 수정 방법</p>
+</li>
+<li><p>Getting Video by ID<br>=&gt; search에서 query로 trem 받은것처럼 video id를 받음<br>=&gt; url로부터 정보를 가져오는 유일한 방법 : (:)과 이름을 넣으면 됨</p>
+</li>
+<li><p>Editing a Video<br>=&gt; video 수정시 title, description에 빈 공간 없게 수정</p>
+</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
     <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/04/01/TIL-210401/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1096,99 +1205,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/03/21/TIL-210321/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="codingPpushu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="codingPpushu's dev story">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/03/21/TIL-210321/" class="post-title-link" itemprop="url">TIL-210321</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">작성일</span>
-              
-
-              <time title="Post created: 2021-03-21 20:05:45 / Updated at: 20:14:34" itemprop="dateCreated datePublished" datetime="2021-03-21T20:05:45+09:00">2021-03-21</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2021/03/21/TIL-210321/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/03/21/TIL-210321/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
-  <th colspan='4'>JS - Event, DOM, OOP</th>
-  <tr style="text-align:center; background-color:#fff">
-    <td>IntersectionObserver()</td>
-    <td>async vs defer</td>
-    <td>oop - abstraction, encapsulation,<br>inheritance, polymorphism</td>
-  </tr>
- </table>
-
-<h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul>
-<li>DOM, Events 내용을 마무리하고 OOP를 배우고 있다.<br>뒤로 갈수록 자바스크립트의 세계는 무궁무진하다는 걸 느꼈다.<br>(점점 어려워지는 건 덤이고🤣)</li>
-</ul>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -1260,7 +1276,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">65</span>
+          <span class="site-state-item-count">66</span>
           <span class="site-state-item-name">포스트</span>
         </a>
       </div>

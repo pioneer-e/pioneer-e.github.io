@@ -20,22 +20,20 @@
     var CONFIG = {"hostname":"codingppushu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="What? A Closer Look at Functions   How?">
+  <meta name="description" content="What?   JS-객체지향, ES6문법        Spread Operator     apply, call     parameter     arguments           rest parameter                      Spread Operator (…) 대괄호 제거 array 합치기&#x2F;복사 object 합치기&#x2F;복사 활용법 array를">
 <meta property="og:type" content="article">
-<meta property="og:title" content="TIL-210203">
-<meta property="og:url" content="https://codingppushu.github.io/2021/02/03/TIL-210203/index.html">
+<meta property="og:title" content="TIL-210428">
+<meta property="og:url" content="https://codingppushu.github.io/2021/04/28/TIL-210428/index.html">
 <meta property="og:site_name" content="codingPpushu&#39;s dev story">
-<meta property="og:description" content="What? A Closer Look at Functions   How?">
+<meta property="og:description" content="What?   JS-객체지향, ES6문법        Spread Operator     apply, call     parameter     arguments           rest parameter                      Spread Operator (…) 대괄호 제거 array 합치기&#x2F;복사 object 합치기&#x2F;복사 활용법 array를">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:image" content="https://codingppushu.github.io/images/til/210203_til_kewords.jpg">
-<meta property="article:published_time" content="2021-02-03T13:45:31.000Z">
-<meta property="article:modified_time" content="2021-02-03T13:46:54.683Z">
+<meta property="article:published_time" content="2021-04-28T09:38:55.000Z">
+<meta property="article:modified_time" content="2021-04-28T09:53:24.459Z">
 <meta property="article:author" content="codingPpushu">
 <meta property="article:tag" content="TIL">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://codingppushu.github.io/images/til/210203_til_kewords.jpg">
 
-<link rel="canonical" href="https://codingppushu.github.io/2021/02/03/TIL-210203/">
+<link rel="canonical" href="https://codingppushu.github.io/2021/04/28/TIL-210428/">
 
 
 <script id="page-configurations">
@@ -48,7 +46,7 @@
   };
 </script>
 
-  <title>TIL-210203 | codingPpushu's dev story</title>
+  <title>TIL-210428 | codingPpushu's dev story</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZL1DFSNPM"></script>
     <script>
@@ -174,7 +172,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/02/03/TIL-210203/">
+    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/04/28/TIL-210428/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -187,7 +185,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          TIL-210203
+          TIL-210428
         </h1>
 
         <div class="post-meta">
@@ -198,7 +196,7 @@
               <span class="post-meta-item-text">작성일</span>
               
 
-              <time title="Post created: 2021-02-03 22:45:31 / Updated at: 22:46:54" itemprop="dateCreated datePublished" datetime="2021-02-03T22:45:31+09:00">2021-02-03</time>
+              <time title="Post created: 2021-04-28 18:38:55 / Updated at: 18:53:24" itemprop="dateCreated datePublished" datetime="2021-04-28T18:38:55+09:00">2021-04-28</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -226,8 +224,8 @@
       </span>
       <span class="post-meta-item-text">Disqus: </span>
     
-    <a title="disqus" href="/2021/02/03/TIL-210203/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/02/03/TIL-210203/" itemprop="commentCount"></span>
+    <a title="disqus" href="/2021/04/28/TIL-210428/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/04/28/TIL-210428/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -242,18 +240,59 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul>
-<li>A Closer Look at Functions</li>
+        <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
+  <th colspan='4'>JS-객체지향, ES6문법</th>
+  <tr style="text-align:center; background-color:#fff">
+    <td>Spread Operator</td>
+    <td>apply, call</td>
+    <td>parameter</td>
+    <td>arguments</td>
+  </tr>
+  <tr style="text-align:center; background-color:#fff">
+    <td>rest parameter</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<ul>
+<li>Spread Operator (…)<ul>
+<li>대괄호 제거</li>
+<li>array 합치기/복사</li>
+<li>object 합치기/복사</li>
+<li>활용법<ul>
+<li>array를 parameter형태로 넣고 싶을 때 사용</li>
 </ul>
-<hr>
-<h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><p><img src="/images/til/210203_til_kewords.jpg"></p>
-<!--
-함수 살펴보기
-default parameters
-arguments value 값 전달 reference 참조 전달
-functions first-class 함수는 값 자체 higher-order 인자로 전달 반환
--->
-<!-- # Why? -->
+</li>
+</ul>
+</li>
+<li>apply<ul>
+<li>실행할함수.apply(적용할 곳)</li>
+<li>[array]로 한꺼번에 집어넣기 가능</li>
+</ul>
+</li>
+<li>call<ul>
+<li>apply와 실행 결과와 사용법 같음</li>
+<li>일반 함수처럼만 넣을수 있음</li>
+</ul>
+</li>
+<li>parameter<ul>
+<li>default parameter (기본값) 줄 수 있음</li>
+<li>다른 parameter와 연산 가능</li>
+<li>함수 입력 가능</li>
+</ul>
+</li>
+<li>arguments<ul>
+<li>모든 parameter들을 한꺼번에 다룰 때 사용</li>
+</ul>
+</li>
+<li>Rest (…)<ul>
+<li>대괄호 감싸기</li>
+<li>함수 parameter 자리에 붙음</li>
+</ul>
+</li>
+</ul>
 
     </div>
 
@@ -272,13 +311,10 @@ functions first-class 함수는 값 자체 higher-order 인자로 전달 반환
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/02/01/TIL-210130-210201/" rel="prev" title="TIL-210130-210201">
-      <i class="fa fa-chevron-left"></i> TIL-210130-210201
+    <a href="/2021/04/27/TIL-210427/" rel="prev" title="TIL-0427">
+      <i class="fa fa-chevron-left"></i> TIL-0427
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/02/04/TIL-210204/" rel="next" title="TIL-210204">
-      TIL-210204 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -344,7 +380,7 @@ functions first-class 함수는 값 자체 higher-order 인자로 전달 반환
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#What"><span class="nav-number">1.</span> <span class="nav-text">What?</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#How"><span class="nav-number">2.</span> <span class="nav-text">How?</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#What"><span class="nav-number">1.</span> <span class="nav-text">What?</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -497,9 +533,9 @@ functions first-class 함수는 값 자체 higher-order 인자로 전달 반환
 </script>
 <script>
   var disqus_config = function() {
-    this.page.url = "https://codingppushu.github.io/2021/02/03/TIL-210203/";
-    this.page.identifier = "2021/02/03/TIL-210203/";
-    this.page.title = "TIL-210203";
+    this.page.url = "https://codingppushu.github.io/2021/04/28/TIL-210428/";
+    this.page.identifier = "2021/04/28/TIL-210428/";
+    this.page.title = "TIL-210428";
     };
   NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
     if (window.DISQUS) {
