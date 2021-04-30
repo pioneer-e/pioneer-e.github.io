@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 29 Apr 2021 14:58:17 GMT</pubDate>
+    <pubDate>Fri, 30 Apr 2021 14:53:57 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210430</title>
+      <link>https://codingppushu.github.io/2021/04/30/TIL-210430/</link>
+      <guid>https://codingppushu.github.io/2021/04/30/TIL-210430/</guid>
+      <pubDate>Fri, 30 Apr 2021 14:48:25 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;JS-객체지향, ES</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>JS-객체지향, ES6문법</th>  <tr style="text-align:center; background-color:#fff">    <td>extends</td>    <td>super</td>    <td>getter</td>    <td>setter</td>  </tr></table><ul><li>extends<ul><li>유사한 class 생성시 사용</li><li>class 상속</li></ul></li><li>super<ul><li>extends로 상속중인 부모 class의 constructor()</li></ul></li><li>get / getter<ul><li>데이터를 뽑아주고, 가져와준다.</li></ul></li><li>set / setter<ul><li>데이터를 입력해주고, 수정해준다.</li></ul></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/04/30/TIL-210430/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210429</title>
@@ -252,34 +279,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/04/20/TIL-210420/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210419</title>
-      <link>https://codingppushu.github.io/2021/04/19/TIL-210419/</link>
-      <guid>https://codingppushu.github.io/2021/04/19/TIL-210419/</guid>
-      <pubDate>Mon, 19 Apr 2021 13:12:30 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th colspan=&#39;4&#39;&gt;JS&lt;/th&gt;
-  &lt;</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>JS</th>  <tr style="text-align:center; background-color:#fff">    <td>부트스트랩 이용 모달창 UI 구현</td>    <td>nav 메뉴 구현</td>    <td>폼 개발</td>    <td>폼 전송 : 빈문자 체크 기능 구현</td>  </tr></table><ul><li>관련 내용 모두 노션에 기록</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/04/19/TIL-210419/#disqus_thread</comments>
       
     </item>
     
