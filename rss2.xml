@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 01 May 2021 14:51:28 GMT</pubDate>
+    <pubDate>Sun, 02 May 2021 14:53:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210502</title>
+      <link>https://codingppushu.github.io/2021/05/02/TIL-210502/</link>
+      <guid>https://codingppushu.github.io/2021/05/02/TIL-210502/</guid>
+      <pubDate>Sun, 02 May 2021 14:45:58 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;React Proje</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project</th>  <tr style="text-align:center; background-color:#fff">    <td style="width:30%">설치/개발환경 셋팅</td>    <td style="width:30%">jsx</td>    <td style="width:30%">state</td>  </tr></table><ul><li>설치/개발환경 셋팅<ul><li>nodejs 최신버전 설치</li><li>터미널에서 명령어 입력<ul><li>npx create-react-app 프로젝트명</li></ul></li></ul></li><li>jsx<ul><li>jsx를 이용해 HTML 페이지 제작</li><li>HTML에 스타일 직접 적용하고 싶으면 {}로 바꿔서 넣기</li></ul></li><li>state<ul><li>중요한 데이터는 state로 만들기</li><li>변수 대신 쓰는 데이터 저장공간</li><li>데이터 바인딩 가능</li><li>버튼기능/state 변경</li></ul></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/05/02/TIL-210502/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210501</title>
@@ -252,33 +279,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/04/22/TIL-210422/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210421</title>
-      <link>https://codingppushu.github.io/2021/04/21/TIL-210421/</link>
-      <guid>https://codingppushu.github.io/2021/04/21/TIL-210421/</guid>
-      <pubDate>Wed, 21 Apr 2021 14:50:59 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th colspan=&#39;4&#39;&gt;JS-UI 개발, c</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>JS-UI 개발, clone project</th>  <tr style="text-align:center; background-color:#fff">    <td>슬라이드 다운 모달창</td>    <td>정규식 이메일 형식/비밀번호 검증</td>    <td>이미지 슬라이드</td>    <td>미디어 api</td>  </tr></table><ul><li>슬라이드 다운 모달창 스크립트 구현</li><li>정규식 구현<ul><li>의미 : 문자를 검사하고 싶을 때 사용하는 식</li><li>슬래시 기호로 표현</li></ul></li><li>이미지 슬라이드 스크립트 구현</li><li>미디어 api로 카메라, 오디오값 불러옴</li><li>녹화 기능을 위해 함수 추가</li><li>미디어 레코더는 기본값이 한번에 모든걸 저장함<ul><li>타이머 함수를 추가해 매초마다 이벤트에 기록되게 수정</li></ul></li><li>blob을 받고 다운로드 기능을 위해 링크를 얻음</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/04/21/TIL-210421/#disqus_thread</comments>
       
     </item>
     
