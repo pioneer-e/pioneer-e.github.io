@@ -9,7 +9,7 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 03 May 2021 14:56:56 GMT</pubDate>
+    <pubDate>Mon, 03 May 2021 14:59:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -26,7 +26,7 @@
       
       
       
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project</th>  <tr style="text-align:center; background-color:#fff">    <td style="width:30%">Component</td>    <td style="width:30%">jsx</td>    <td style="width:30%">state</td>  </tr></table><ul><li>React Component<ul><li>Compnent 문법<ul><li>function 키워드 이용해 함수 생성</li><li>return() 안에 HTML 작성</li><li>원하는 곳에 &lt;함수명&gt;&lt;/함수명&gt; 선언</li><li>이름 영어 대문자로 시작</li><li>어떤걸 만들까<ul><li>반복적인 HTML 덩어리</li><li>내용이 자주 변경될 것 같은 HTML 부분</li></ul></li><li>단점<ul><li>App(){}안에서 state를 사용하고 싶을 때 바로 쓸 수 없다는 것</li></ul></li></ul></li><li>모달창 디자인<ul><li>삼항연산자 사용</li><li>상태정보 state로 만듬</li></ul></li></ul></li></ul>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project</th>  <tr style="text-align:center; background-color:#fff">    <td style="width:30%">Component</td>    <td style="width:30%">Modal</td>  </tr></table><ul><li>React Component<ul><li>Compnent 문법<ul><li>function 키워드 이용해 함수 생성</li><li>return() 안에 HTML 작성</li><li>원하는 곳에 &lt;함수명&gt;&lt;/함수명&gt; 선언</li><li>이름 영어 대문자로 시작</li><li>어떤걸 만들까<ul><li>반복적인 HTML 덩어리</li><li>내용이 자주 변경될 것 같은 HTML 부분</li></ul></li><li>단점<ul><li>App(){}안에서 state를 사용하고 싶을 때 바로 쓸 수 없다는 것</li></ul></li></ul></li><li>모달창 디자인<ul><li>삼항연산자 사용</li><li>상태정보 state로 만듬</li></ul></li></ul></li></ul>]]></content:encoded>
       
       
       <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
