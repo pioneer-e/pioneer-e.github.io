@@ -20,16 +20,20 @@
     var CONFIG = {"hostname":"codingppushu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="codingPpushu&#39;s dev story">
-<meta property="og:url" content="https://codingppushu.github.io/archives/2021/03/index.html">
+  <meta name="description" content="What?   React Project        Map     props     state     input       Map JSX 코딩 중괄호 안에는 변수, 함수 이런 것만 입력 가능 map으로 반복문 돌려 HTML 담기 사용시 콘솔창 에러 뜨는 이유 반복문 돌린 요소에 key&#x3D;{} 적으라고 권장     props 자식 컴포넌트가 부모 컴포넌트 안에">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TIL-210505">
+<meta property="og:url" content="https://codingppushu.github.io/2021/05/04/TIL-210504/index.html">
 <meta property="og:site_name" content="codingPpushu&#39;s dev story">
+<meta property="og:description" content="What?   React Project        Map     props     state     input       Map JSX 코딩 중괄호 안에는 변수, 함수 이런 것만 입력 가능 map으로 반복문 돌려 HTML 담기 사용시 콘솔창 에러 뜨는 이유 반복문 돌린 요소에 key&#x3D;{} 적으라고 권장     props 자식 컴포넌트가 부모 컴포넌트 안에">
 <meta property="og:locale" content="ko_KR">
+<meta property="article:published_time" content="2021-05-04T14:37:01.000Z">
+<meta property="article:modified_time" content="2021-05-04T14:49:20.195Z">
 <meta property="article:author" content="codingPpushu">
-<meta property="article:tag" content="html,css,javascript,nodejs">
+<meta property="article:tag" content="TIL">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://codingppushu.github.io/archives/2021/03/">
+<link rel="canonical" href="https://codingppushu.github.io/2021/05/04/TIL-210504/">
 
 
 <script id="page-configurations">
@@ -37,12 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'ko'
   };
 </script>
 
-  <title>아카이브 | codingPpushu's dev story</title>
+  <title>TIL-210505 | codingPpushu's dev story</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZL1DFSNPM"></script>
     <script>
@@ -161,240 +165,156 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/05/04/TIL-210504/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="codingPpushu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="codingPpushu's dev story">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          TIL-210505
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">작성일</span>
+              
+
+              <time title="Post created: 2021-05-04 23:37:01 / Updated at: 23:49:20" itemprop="dateCreated datePublished" datetime="2021-05-04T23:37:01+09:00">2021-05-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        
-        <span class="collection-header">잘했어요! 총 72개의 포스트 포스트를 마저 작성하세요</span>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2021/05/04/TIL-210504/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/05/04/TIL-210504/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
-    </div>
+        <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
+  <th colspan='4'>React Project</th>
+  <tr style="text-align:center; background-color:#fff">
+    <td>Map</td>
+    <td>props</td>
+    <td>state</td>
+    <td>input</td>
+  </tr>
+</table>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-31T22:31:59+09:00"
-              content="2021-03-31">
-          03-31
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/31/TIL-210330-210331/" itemprop="url">
-            <span itemprop="name">TIL-210330-210331</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-29T23:05:38+09:00"
-              content="2021-03-29">
-          03-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/29/TIL-210329/" itemprop="url">
-            <span itemprop="name">TIL-210329</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-27T23:47:58+09:00"
-              content="2021-03-27">
-          03-27
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/27/TIL-210327/" itemprop="url">
-            <span itemprop="name">TIL-210327</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-26T23:56:15+09:00"
-              content="2021-03-26">
-          03-26
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/26/TIL-210326/" itemprop="url">
-            <span itemprop="name">TIL-210326</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-25T23:43:03+09:00"
-              content="2021-03-25">
-          03-25
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/25/TIL-210325/" itemprop="url">
-            <span itemprop="name">TIL-210325</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-24T23:57:01+09:00"
-              content="2021-03-24">
-          03-24
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/24/TIL-210324/" itemprop="url">
-            <span itemprop="name">TIL-210324</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-23T23:43:17+09:00"
-              content="2021-03-23">
-          03-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/23/TIL-210323/" itemprop="url">
-            <span itemprop="name">TIL-210323</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-22T23:46:04+09:00"
-              content="2021-03-22">
-          03-22
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/22/TIL-210322/" itemprop="url">
-            <span itemprop="name">TIL-210322</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-21T20:05:45+09:00"
-              content="2021-03-21">
-          03-21
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/21/TIL-210321/" itemprop="url">
-            <span itemprop="name">TIL-210321</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-20T22:36:34+09:00"
-              content="2021-03-20">
-          03-20
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/20/TIL-210320/" itemprop="url">
-            <span itemprop="name">TIL-210320</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+<ul>
+<li>Map<ul>
+<li>JSX 코딩 중괄호 안에는 변수, 함수 이런 것만 입력 가능</li>
+<li>map으로 반복문 돌려 HTML 담기</li>
+<li>사용시 콘솔창 에러 뜨는 이유<ul>
+<li>반복문 돌린 요소에 key={} 적으라고 권장</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>props<ul>
+<li>자식 컴포넌트가 부모 컴포넌트 안에 있는 state 사용시</li>
+</ul>
+</li>
+<li>state<ul>
+<li>UI 현재상태를 보관하는 저장소 역할</li>
+</ul>
+</li>
+<li>input<ul>
+<li>입력된 값 state에 저장</li>
+<li>e.target =&gt; 이벤트 동작한 곳</li>
+</ul>
+</li>
+</ul>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/TIL/" rel="tag"># TIL</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/05/03/TIL-210503/" rel="prev" title="TIL-210503">
+      <i class="fa fa-chevron-left"></i> TIL-210503
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
   
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/archives/2021/03/page/2/">2</a><a class="extend next" rel="next" href="/archives/2021/03/page/2/"><i class="fa fa-angle-right" aria-label="다음 페이지"></i></a>
-  </nav>
+  
+  
 
 
 
           </div>
           
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -441,6 +361,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#What"><span class="nav-number">1.</span> <span class="nav-text">What?</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -590,6 +511,26 @@
   }
   // defer loading until the whole page loading is completed
   window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://codingppushu.github.io/2021/05/04/TIL-210504/";
+    this.page.identifier = "2021/05/04/TIL-210504/";
+    this.page.title = "TIL-210505";
+    };
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://codingppushu-blog.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
 </script>
 
 </body>
