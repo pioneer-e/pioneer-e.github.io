@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 04 May 2021 14:49:20 GMT</pubDate>
+    <pubDate>Thu, 06 May 2021 14:35:44 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210506</title>
+      <link>https://codingppushu.github.io/2021/05/06/TIL-210506/</link>
+      <guid>https://codingppushu.github.io/2021/05/06/TIL-210506/</guid>
+      <pubDate>Thu, 06 May 2021 14:26:16 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;React Proje</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project - Shop</th>  <tr style="text-align:center; background-color:#fff">    <td>react-bootstrap</td>    <td>import / export</td>    <td>data binding</td>    <td>Component + 반복문</td>  </tr></table><ul><li>react-bootstrap<ul><li>react-bootstrap 사용법</li><li>navbar, Jumbotron, 상품 레이아웃 작업</li></ul></li><li>import / export<ul><li>export default, export, import</li></ul></li><li>data binding<ul><li>상품 데이터 데이터바인딩</li></ul></li><li>Component + 반복문<ul><li>component 제작법, props 전송법</li><li>컴포넌트 반복문, map 반복문 돌리기</li></ul></li><li>서버에서 사이트 구성에 필요한 데이터 받아온 후 HTML로 보여줌</li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/05/06/TIL-210506/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210505</title>
@@ -252,33 +279,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/04/26/TIL-210426/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210425</title>
-      <link>https://codingppushu.github.io/2021/04/25/TIL-210425/</link>
-      <guid>https://codingppushu.github.io/2021/04/25/TIL-210425/</guid>
-      <pubDate>Sun, 25 Apr 2021 14:34:49 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th colspan=&#39;4&#39;&gt;JS-UI 개발&lt;/t</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>JS-UI 개발</th>  <tr style="text-align:center; background-color:#fff">    <td>Dom</td>    <td>Ajax</td>    <td>sticky</td>    <td>scroll animation</td>  </tr>  <tr style="text-align:center; background-color:#fff">    <td>hammer.js</td>    <td>setTimeout</td>    <td></td>    <td></td>  </tr></table><ul><li>Dom 개념</li><li>Ajax 개념 (서버, GET/POST, 데이터바인딩)</li><li>sticky와 scroll animation (1차 함수)</li><li>hammer.js 를 이용한 터치 기능 구현</li><li>setTimeout 사용해 간단한 Typewriting 애니메이션</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/04/25/TIL-210425/#disqus_thread</comments>
       
     </item>
     
