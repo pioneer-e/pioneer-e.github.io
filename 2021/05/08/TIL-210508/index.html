@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"codingppushu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="What?   React Project - Shop        Lifecycle Hook     useEffect Hook     setTimeout()&#x2F;clerTimeout()       Lifecycle Hook Lifecycle : 컴포넌트는 어떻게 살다 죽는가 생성 될 수 있고 삭제 될 수 있고 관련 state가 변경되면 재렌더링(업데이트)이 일어">
+  <meta name="description" content="What?   React Project - Shop        Lifecycle Hook     useEffect Hook     setTimeout()&#x2F;clearTimeout()       Lifecycle Hook Lifecycle : 컴포넌트는 어떻게 살다 죽는가 생성 될 수 있고 삭제 될 수 있고 관련 state가 변경되면 재렌더링(업데이트)이 일">
 <meta property="og:type" content="article">
 <meta property="og:title" content="TIL-210508">
 <meta property="og:url" content="https://codingppushu.github.io/2021/05/08/TIL-210508/index.html">
 <meta property="og:site_name" content="codingPpushu&#39;s dev story">
-<meta property="og:description" content="What?   React Project - Shop        Lifecycle Hook     useEffect Hook     setTimeout()&#x2F;clerTimeout()       Lifecycle Hook Lifecycle : 컴포넌트는 어떻게 살다 죽는가 생성 될 수 있고 삭제 될 수 있고 관련 state가 변경되면 재렌더링(업데이트)이 일어">
+<meta property="og:description" content="What?   React Project - Shop        Lifecycle Hook     useEffect Hook     setTimeout()&#x2F;clearTimeout()       Lifecycle Hook Lifecycle : 컴포넌트는 어떻게 살다 죽는가 생성 될 수 있고 삭제 될 수 있고 관련 state가 변경되면 재렌더링(업데이트)이 일">
 <meta property="og:locale" content="ko_KR">
 <meta property="article:published_time" content="2021-05-08T11:26:26.000Z">
-<meta property="article:modified_time" content="2021-05-08T11:36:12.272Z">
+<meta property="article:modified_time" content="2021-05-10T14:25:41.041Z">
 <meta property="article:author" content="codingPpushu">
 <meta property="article:tag" content="TIL">
 <meta name="twitter:card" content="summary">
@@ -194,10 +194,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">작성일</span>
-              
 
-              <time title="Post created: 2021-05-08 20:26:26 / Updated at: 20:36:12" itemprop="dateCreated datePublished" datetime="2021-05-08T20:26:26+09:00">2021-05-08</time>
+              <time title="Post created: 2021-05-08 20:26:26" itemprop="dateCreated datePublished" datetime="2021-05-08T20:26:26+09:00">2021-05-08</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Updated at: 2021-05-10 23:25:41" itemprop="dateModified" datetime="2021-05-10T23:25:41+09:00">2021-05-10</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -245,7 +251,7 @@
   <tr style="text-align:center; background-color:#fff">
     <td>Lifecycle Hook</td>
     <td>useEffect Hook</td>
-    <td>setTimeout()/clerTimeout()</td>
+    <td>setTimeout()/clearTimeout()</td>
   </tr>
 </table>
 
@@ -272,7 +278,7 @@
 </ul>
 </li>
 <li>setTimeout()<ul>
-<li>사용후 꼭 해제해야됨 =&gt; clerTimeout()</li>
+<li>사용후 꼭 해제해야됨 =&gt; clearTimeout()</li>
 </ul>
 </li>
 </ul>
@@ -297,7 +303,10 @@
     <a href="/2021/05/07/TIL-210507/" rel="prev" title="TIL-210507">
       <i class="fa fa-chevron-left"></i> TIL-210507
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2021/05/10/TIL-210510/" rel="next" title="TIL-210510">
+      TIL-210510 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -379,7 +388,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">75</span>
+          <span class="site-state-item-count">76</span>
           <span class="site-state-item-name">포스트</span>
         </a>
       </div>

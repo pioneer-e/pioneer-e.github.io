@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 08 May 2021 11:36:12 GMT</pubDate>
+    <pubDate>Mon, 10 May 2021 14:41:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210510</title>
+      <link>https://codingppushu.github.io/2021/05/10/TIL-210510/</link>
+      <guid>https://codingppushu.github.io/2021/05/10/TIL-210510/</guid>
+      <pubDate>Mon, 10 May 2021 14:23:18 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;React Proje</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project - Shop</th>  <tr style="text-align:center; background-color:#fff">    <td>Ajax</td>    <td>component 중첩시 state 전달</td>    <td>state 조작법</td>    <td>Context API</td>  </tr>  <tr style="text-align:center; background-color:#fff">    <td>react-transition-group</td>    <td></td>    <td></td>    <td></td>  </tr></table><ul><li>리액트에서의 Ajax<ul><li>서버에 새로고침없이 요청 할 수 있게 도와주는 코드<ul><li>axios 라이브러리 설치</li><li>더보기 버튼 구현 (클릭시 상품 데이터 가져온 후 메인페이지 하단에 추가)</li></ul></li></ul></li><li>component 중첩시 state 전달<ul><li>component1 =&gt; component2 =&gt; component3 (props 문법을 두 번 써주면 됨)</li></ul></li><li>state 조작법<ul><li>사본을 만든다.</li><li>사본을 변경한다.</li><li>사본을 변경 함수에 넣는다.</li></ul></li><li>Context API<ul><li>props 연속 사용이 싫다면 사용</li></ul></li><li>react-transition-group<ul><li>컴포넌트 등장/업데이트시 transition 쉽게 줄 수 있음</li></ul></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/05/10/TIL-210510/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210508</title>
@@ -26,7 +53,7 @@
       
       
       
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project - Shop</th>  <tr style="text-align:center; background-color:#fff">    <td>Lifecycle Hook</td>    <td>useEffect Hook</td>    <td>setTimeout()/clerTimeout()</td>  </tr></table><ul><li>Lifecycle Hook<ul><li>Lifecycle : 컴포넌트는 어떻게 살다 죽는가<ul><li>생성 될 수 있고</li><li>삭제 될 수 있고</li><li>관련 state가 변경되면 재렌더링(업데이트)이 일어날 수 있다.</li></ul></li><li>Hook : 컴포넌트 중간 Hook을 걸 수 있다. (참견)</li></ul></li><li>useEffect Hook<ul><li>function 컴포넌트에서 사용하는 Hook</li><li>요즘 많이 사용 (약간 더 짧고 쉽기 때문)</li><li>실행조건<ul><li>mount 끝났을 때</li><li>update 되고난 후에</li></ul></li><li>useEffect()는 컴포넌트 등장과 업데이트가 되고나서 항상 실행됨</li></ul></li><li>setTimeout()<ul><li>사용후 꼭 해제해야됨 =&gt; clerTimeout()</li></ul></li></ul>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project - Shop</th>  <tr style="text-align:center; background-color:#fff">    <td>Lifecycle Hook</td>    <td>useEffect Hook</td>    <td>setTimeout()/clearTimeout()</td>  </tr></table><ul><li>Lifecycle Hook<ul><li>Lifecycle : 컴포넌트는 어떻게 살다 죽는가<ul><li>생성 될 수 있고</li><li>삭제 될 수 있고</li><li>관련 state가 변경되면 재렌더링(업데이트)이 일어날 수 있다.</li></ul></li><li>Hook : 컴포넌트 중간 Hook을 걸 수 있다. (참견)</li></ul></li><li>useEffect Hook<ul><li>function 컴포넌트에서 사용하는 Hook</li><li>요즘 많이 사용 (약간 더 짧고 쉽기 때문)</li><li>실행조건<ul><li>mount 끝났을 때</li><li>update 되고난 후에</li></ul></li><li>useEffect()는 컴포넌트 등장과 업데이트가 되고나서 항상 실행됨</li></ul></li><li>setTimeout()<ul><li>사용후 꼭 해제해야됨 =&gt; clearTimeout()</li></ul></li></ul>]]></content:encoded>
       
       
       <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
@@ -252,33 +279,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/04/29/TIL-210429/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210428</title>
-      <link>https://codingppushu.github.io/2021/04/28/TIL-210428/</link>
-      <guid>https://codingppushu.github.io/2021/04/28/TIL-210428/</guid>
-      <pubDate>Wed, 28 Apr 2021 09:38:55 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th colspan=&#39;4&#39;&gt;JS-객체지향, ES</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>JS-객체지향, ES6문법</th>  <tr style="text-align:center; background-color:#fff">    <td>Spread Operator</td>    <td>apply, call</td>    <td>parameter</td>    <td>arguments</td>  </tr>  <tr style="text-align:center; background-color:#fff">    <td>rest parameter</td>    <td></td>    <td></td>    <td></td>  </tr></table><ul><li>Spread Operator (…)<ul><li>대괄호 제거</li><li>array 합치기/복사</li><li>object 합치기/복사</li><li>활용법<ul><li>array를 parameter형태로 넣고 싶을 때 사용</li></ul></li></ul></li><li>apply<ul><li>실행할함수.apply(적용할 곳)</li><li>[array]로 한꺼번에 집어넣기 가능</li></ul></li><li>call<ul><li>apply와 실행 결과와 사용법 같음</li><li>일반 함수처럼만 넣을수 있음</li></ul></li><li>parameter<ul><li>default parameter (기본값) 줄 수 있음</li><li>다른 parameter와 연산 가능</li><li>함수 입력 가능</li></ul></li><li>arguments<ul><li>모든 parameter들을 한꺼번에 다룰 때 사용</li></ul></li><li>Rest (…)<ul><li>대괄호 감싸기</li><li>함수 parameter 자리에 붙음</li></ul></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/04/28/TIL-210428/#disqus_thread</comments>
       
     </item>
     
