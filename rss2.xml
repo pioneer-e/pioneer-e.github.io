@@ -9,8 +9,33 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 13 May 2021 14:54:22 GMT</pubDate>
+    <pubDate>Sat, 15 May 2021 14:55:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210515</title>
+      <link>https://codingppushu.github.io/2021/05/15/TIL-210515/</link>
+      <guid>https://codingppushu.github.io/2021/05/15/TIL-210515/</guid>
+      <pubDate>Sat, 15 May 2021 14:41:33 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;React Proje</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project - Shop</th>  <tr style="text-align:center; background-color:#fff">    <td>sync / async</td>    <td>lazy loading</td>    <td>React devtools</td>    <td>memo</td>  </tr>  <tr style="text-align:center; background-color:#fff">    <td>PWA</td>    <td>localStorage</td>    <td></td>    <td></td>  </tr></table><ul><li>sync / async<ul><li>동기/비동식 방식</li></ul></li><li>lazy loading<ul><li>초기 접속 속도를 위해 import</li></ul></li><li>React Dev Tools<ul><li>크롬 확장 프로그램</li><li>성능 최적화 할때 사용</li><li>props, state 등등 확인 가능</li></ul></li><li>memo<ul><li>쓸데없는 재렌더링 막기</li></ul></li><li>PWA (Progressive Web App)<ul><li>안드로이드/iOS 모바일 앱처럼 사용할 수 있게 만드는 웹개발 기술</li></ul></li><li>localStorage<ul><li>브라우저에 몰래 정보를 저장하고 싶을 때 사용</li></ul></li></ul>]]></content:encoded>
+      
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/05/15/TIL-210515/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210513</title>
@@ -29,6 +54,8 @@
       
       <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>JavaScript/jQuery - 문법 복습 진행<ul><li>존재 목적 ~ 이벤트 버블링, 함수까지 완료</li></ul></li></ul>]]></content:encoded>
       
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
       
       
       <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
@@ -54,6 +81,8 @@
       
       <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project - Shop</th>  <tr style="text-align:center; background-color:#fff">    <td>reducer/dispatch</td>    <td><컴포넌트></td>    <td>findIndex()</td>    <td>react-if문 패턴</td>  </tr></table><ul><li>reducer/dispatch<ul><li>redux store로 전달할 데이터를 작성할 수 있다.</li><li>미리보기 띄울 때 페이지를 이동하면 초기화 됨<ul><li>나중에 사이트 발행하면 제대로 동작</li></ul></li></ul></li><li>&lt;컴포넌트&gt; 는 onClick 속성을 달아도 동작하지 않을 수 있음</li><li>findIndex()<ul><li>특정 값이 array 안에 있는지 찾고 싶을 때 사용</li></ul></li><li>리액트에서 자주 사용하는 if문 패턴<ul><li>컴포넌트 안에서 쓰는 if/else</li><li>JSX안에서 쓰는 삼항연산자</li><li>&amp;&amp; 연산자로 if 역할 대신하기</li><li>switch / case 조건문</li><li>object 자료형을 응용한 enum</li></ul></li></ul>]]></content:encoded>
       
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
       
       
       <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
@@ -249,33 +278,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/05/03/TIL-210503/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210502</title>
-      <link>https://codingppushu.github.io/2021/05/02/TIL-210502/</link>
-      <guid>https://codingppushu.github.io/2021/05/02/TIL-210502/</guid>
-      <pubDate>Sun, 02 May 2021 14:45:58 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th colspan=&#39;4&#39;&gt;React Proje</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project</th>  <tr style="text-align:center; background-color:#fff">    <td style="width:30%">설치/개발환경 셋팅</td>    <td style="width:30%">jsx</td>    <td style="width:30%">state</td>  </tr></table><ul><li>설치/개발환경 셋팅<ul><li>nodejs 최신버전 설치</li><li>터미널에서 명령어 입력<ul><li>npx create-react-app 프로젝트명</li></ul></li></ul></li><li>jsx<ul><li>jsx를 이용해 HTML 페이지 제작</li><li>HTML에 스타일 직접 적용하고 싶으면 {}로 바꿔서 넣기</li></ul></li><li>state<ul><li>중요한 데이터는 state로 만들기</li><li>변수 대신 쓰는 데이터 저장공간</li><li>데이터 바인딩 가능</li><li>버튼기능/state 변경</li></ul></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/05/02/TIL-210502/#disqus_thread</comments>
       
     </item>
     
