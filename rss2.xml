@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 22 May 2021 14:51:02 GMT</pubDate>
+    <pubDate>Sun, 23 May 2021 14:57:20 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210523</title>
+      <link>https://codingppushu.github.io/2021/05/23/TIL-210523/</link>
+      <guid>https://codingppushu.github.io/2021/05/23/TIL-210523/</guid>
+      <pubDate>Sun, 23 May 2021 14:50:53 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;Vue-project</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>Vue-project</th>  <tr style="text-align:center; background-color:#fff">    <td>UI 애니메이션</td>    <td>상품 정렬 기능</td>    <td>reference data type</td>    <td>Lifecycle</td>  </tr></table><ul><li>UI 애니메이션<ul><li>CSS</li><li>Vue 제공 <transition></li></ul></li><li>상품 정렬 기능<ul><li>낮은가격순, 높은가격순, 상품명순, 되돌리기 기능 구현</li></ul></li><li>reference data type<ul><li>array, object 자료형 =&gt; 값 공유가 일어나지 않게 복사한다.<ul><li>spread operator 사용</li></ul></li></ul></li><li>Lifecycle<ul><li>create</li><li>mount</li><li>컴포넌트 생성</li><li>update</li><li>unmount</li><li>Life Hook을 걸어서 중간에 원하는 코드를 실행 가능</li></ul></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/05/23/TIL-210523/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210522</title>
@@ -253,33 +280,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/05/08/TIL-210508/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210507</title>
-      <link>https://codingppushu.github.io/2021/05/07/TIL-210507/</link>
-      <guid>https://codingppushu.github.io/2021/05/07/TIL-210507/</guid>
-      <pubDate>Fri, 07 May 2021 14:26:16 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th colspan=&#39;4&#39;&gt;React Proje</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project - Shop</th>  <tr style="text-align:center; background-color:#fff">    <td>React Router</td>    <td>BrowserRouter</td>    <td>HashRouter</td>    <td>Route</td>  </tr>  <tr style="text-align:center; background-color:#fff">    <td>styled-components</td>    <td>Sass</td>    <td></td>    <td></td>  </tr></table><ul><li>React Router<ul><li>여러가지 페이지를 만들고 싶다면 사용</li><li>nreact-router-dom 라이브러리 이용</li><li>각각의 페이지를 보여주는게 아니고 HTML 내부 내용을 갈아치워서 다른 페이지처럼 보여줌</li></ul></li><li>BrowserRouter<ul><li>라우팅을 리액트가 아니라 서버에게 요청할 수도 있음 (위험)</li><li>서버에서 서버 라우팅 방지하는 API를 따로 작성해둬야함</li></ul></li><li>HashRouter<ul><li>라우팅 안전하게 할 수 있게 도와줌</li><li>사이트 주소 뒤에 #이 붙으며 #뒤에 적는 것은 서버로 전달 X</li></ul></li><li>라우팅<ul><li>여러 태그들 import 필요 (Link, Switch, history..)</li><li>원하는 곳에 <Route><Route/>태그를 작성</li><li>서버에서 사이트 구성에 필요한 데이터 받아온 후 HTML로 보여줌</li><li><Route>안에 path와 path 방문시 보여줄 HTML 적으면 됨</li><li>URL 파라미터로 상세페이지 만들기</li><li>데이터는 항상 위에서 아래로 흘러야함</li></ul></li><li>styled-components<ul><li>class 선언없이 컴포넌트에 CSS를 직접 장착</li></ul></li><li>Sass 문법<ul><li>변수, @import, nesting, extends, @mixin/@include</li></ul></li></ul><h1 id="How"><a href="#How" class="headerlink" title="How?"></a>How?</h1><ul><li>문제: node-sass 설치 시 에러 발생함</li><li>해결: 처음엔 node-sass 버전을 낮춰서 재설치했으나, 해결이 되지 않았고, node.js LTS 버전으로 재설치해 오류를 해결했다.😁</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/05/07/TIL-210507/#disqus_thread</comments>
       
     </item>
     
