@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 28 May 2021 13:14:57 GMT</pubDate>
+    <pubDate>Sat, 29 May 2021 14:56:50 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210529</title>
+      <link>https://codingppushu.github.io/2021/05/29/TIL-210529/</link>
+      <guid>https://codingppushu.github.io/2021/05/29/TIL-210529/</guid>
+      <pubDate>Sat, 29 May 2021 12:48:08 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;Vue-project</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>Vue-project</th>  <tr style="text-align:center; background-color:#fff">    <td style="width:30%">style 속성 데이터 바인딩</td>    <td style="width:30%">ajax - 더보기 버튼</td>    <td style="width:30%">mitt</td>  </tr></table><ul><li>style 속성 데이터 바인딩<ul><li>:style=”코드내용”</li><li>object 데이터 형태로 여러자기 css 속성 넣을 수 있음</li></ul></li><li>ajax - 더보기 버튼<ul><li>새로고침 없이 서버에서 데이터를 가져와서 보여줄 수 있음</li><li>호환성을 위해 axios 사용</li></ul></li><li>mitt 라이브러리<ul><li>먼 곳에 떨어진 컴포넌트에 데이터 전송할 수 있음</li></ul></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/05/29/TIL-210529/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210528</title>
@@ -253,33 +280,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/05/13/TIL-210513/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210512</title>
-      <link>https://codingppushu.github.io/2021/05/12/TIL-210512/</link>
-      <guid>https://codingppushu.github.io/2021/05/12/TIL-210512/</guid>
-      <pubDate>Wed, 12 May 2021 14:43:18 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th colspan=&#39;4&#39;&gt;React Proje</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>React Project - Shop</th>  <tr style="text-align:center; background-color:#fff">    <td>reducer/dispatch</td>    <td><컴포넌트></td>    <td>findIndex()</td>    <td>react-if문 패턴</td>  </tr></table><ul><li>reducer/dispatch<ul><li>redux store로 전달할 데이터를 작성할 수 있다.</li><li>미리보기 띄울 때 페이지를 이동하면 초기화 됨<ul><li>나중에 사이트 발행하면 제대로 동작</li></ul></li></ul></li><li>&lt;컴포넌트&gt; 는 onClick 속성을 달아도 동작하지 않을 수 있음</li><li>findIndex()<ul><li>특정 값이 array 안에 있는지 찾고 싶을 때 사용</li></ul></li><li>리액트에서 자주 사용하는 if문 패턴<ul><li>컴포넌트 안에서 쓰는 if/else</li><li>JSX안에서 쓰는 삼항연산자</li><li>&amp;&amp; 연산자로 if 역할 대신하기</li><li>switch / case 조건문</li><li>object 자료형을 응용한 enum</li></ul></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/05/12/TIL-210512/#disqus_thread</comments>
       
     </item>
     

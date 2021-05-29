@@ -20,20 +20,20 @@
     var CONFIG = {"hostname":"codingppushu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="What?   React Project - Shop        reducer&#x2F;dispatch       reducer&#x2F;dispatch 데이터 수정 state 데이터의 수정방법을 미리 정의한다. 데이터의 수정방법을 불러서 수정한다. HTML 안에서 dispatch()를 사용해 reducer()를 동작시킬 수 있다.   reducer&#x2F;dispatch 하나 더">
+  <meta name="description" content="What?   Vue-project        style 속성 데이터 바인딩     ajax - 더보기 버튼     mitt       style 속성 데이터 바인딩 :style&#x3D;”코드내용” object 데이터 형태로 여러자기 css 속성 넣을 수 있음   ajax - 더보기 버튼 새로고침 없이 서버에서 데이터를 가져와서 보여줄 수 있음 호환성을 위해 a">
 <meta property="og:type" content="article">
-<meta property="og:title" content="TIL-210511">
-<meta property="og:url" content="https://codingppushu.github.io/2021/05/11/TIL-210511/index.html">
+<meta property="og:title" content="TIL-210529">
+<meta property="og:url" content="https://codingppushu.github.io/2021/05/29/TIL-210529/index.html">
 <meta property="og:site_name" content="codingPpushu&#39;s dev story">
-<meta property="og:description" content="What?   React Project - Shop        reducer&#x2F;dispatch       reducer&#x2F;dispatch 데이터 수정 state 데이터의 수정방법을 미리 정의한다. 데이터의 수정방법을 불러서 수정한다. HTML 안에서 dispatch()를 사용해 reducer()를 동작시킬 수 있다.   reducer&#x2F;dispatch 하나 더">
+<meta property="og:description" content="What?   Vue-project        style 속성 데이터 바인딩     ajax - 더보기 버튼     mitt       style 속성 데이터 바인딩 :style&#x3D;”코드내용” object 데이터 형태로 여러자기 css 속성 넣을 수 있음   ajax - 더보기 버튼 새로고침 없이 서버에서 데이터를 가져와서 보여줄 수 있음 호환성을 위해 a">
 <meta property="og:locale" content="ko_KR">
-<meta property="article:published_time" content="2021-05-11T14:31:21.000Z">
-<meta property="article:modified_time" content="2021-05-11T14:48:25.833Z">
+<meta property="article:published_time" content="2021-05-29T12:48:08.000Z">
+<meta property="article:modified_time" content="2021-05-29T14:56:50.086Z">
 <meta property="article:author" content="codingPpushu">
 <meta property="article:tag" content="TIL">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://codingppushu.github.io/2021/05/11/TIL-210511/">
+<link rel="canonical" href="https://codingppushu.github.io/2021/05/29/TIL-210529/">
 
 
 <script id="page-configurations">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>TIL-210511 | codingPpushu's dev story</title>
+  <title>TIL-210529 | codingPpushu's dev story</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZL1DFSNPM"></script>
     <script>
@@ -172,7 +172,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/05/11/TIL-210511/">
+    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/05/29/TIL-210529/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -185,7 +185,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          TIL-210511
+          TIL-210529
         </h1>
 
         <div class="post-meta">
@@ -196,7 +196,7 @@
               <span class="post-meta-item-text">작성일</span>
               
 
-              <time title="Post created: 2021-05-11 23:31:21 / Updated at: 23:48:25" itemprop="dateCreated datePublished" datetime="2021-05-11T23:31:21+09:00">2021-05-11</time>
+              <time title="Post created: 2021-05-29 21:48:08 / Updated at: 23:56:50" itemprop="dateCreated datePublished" datetime="2021-05-29T21:48:08+09:00">2021-05-29</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -224,8 +224,8 @@
       </span>
       <span class="post-meta-item-text">Disqus: </span>
     
-    <a title="disqus" href="/2021/05/11/TIL-210511/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/05/11/TIL-210511/" itemprop="commentCount"></span>
+    <a title="disqus" href="/2021/05/29/TIL-210529/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/05/29/TIL-210529/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -241,29 +241,27 @@
 
       
         <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
-  <th colspan='4'>React Project - Shop</th>
+  <th colspan='4'>Vue-project</th>
   <tr style="text-align:center; background-color:#fff">
-    <td>reducer/dispatch</td>
+    <td style="width:30%">style 속성 데이터 바인딩</td>
+    <td style="width:30%">ajax - 더보기 버튼</td>
+    <td style="width:30%">mitt</td>
   </tr>
 </table>
 
 <ul>
-<li>reducer/dispatch 데이터 수정<ul>
-<li>state 데이터의 수정방법을 미리 정의한다.</li>
-<li>데이터의 수정방법을 불러서 수정한다.</li>
-<li>HTML 안에서 dispatch()를 사용해 reducer()를 동작시킬 수 있다.</li>
+<li>style 속성 데이터 바인딩<ul>
+<li>:style=”코드내용”</li>
+<li>object 데이터 형태로 여러자기 css 속성 넣을 수 있음</li>
 </ul>
 </li>
-<li>reducer/dispatch 하나 더 만들기<ul>
-<li>state 초기값과 reducer 를 만들고, combineReducers()를 redux에서 import해오고 모든 reducer를 object 형식으로 담는다.</li>
+<li>ajax - 더보기 버튼<ul>
+<li>새로고침 없이 서버에서 데이터를 가져와서 보여줄 수 있음</li>
+<li>호환성을 위해 axios 사용</li>
 </ul>
 </li>
-<li>사용 이유<ul>
-<li>상태관리가 용이함</li>
-</ul>
-</li>
-<li>주의할 점<ul>
-<li>state 데이터를 다른 컴포넌트에서 쓸 일이 없다면 간단하게 useState()로 해당 컴포넌트 안에 간단하게 만든다.</li>
+<li>mitt 라이브러리<ul>
+<li>먼 곳에 떨어진 컴포넌트에 데이터 전송할 수 있음</li>
 </ul>
 </li>
 </ul>
@@ -285,13 +283,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/05/10/TIL-210510/" rel="prev" title="TIL-210510">
-      <i class="fa fa-chevron-left"></i> TIL-210510
+    <a href="/2021/05/28/TIL-210528/" rel="prev" title="TIL-210528">
+      <i class="fa fa-chevron-left"></i> TIL-210528
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/05/12/TIL-210512/" rel="next" title="TIL-210512">
-      TIL-210512 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -510,9 +505,9 @@
 </script>
 <script>
   var disqus_config = function() {
-    this.page.url = "https://codingppushu.github.io/2021/05/11/TIL-210511/";
-    this.page.identifier = "2021/05/11/TIL-210511/";
-    this.page.title = "TIL-210511";
+    this.page.url = "https://codingppushu.github.io/2021/05/29/TIL-210529/";
+    this.page.identifier = "2021/05/29/TIL-210529/";
+    this.page.title = "TIL-210529";
     };
   NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
     if (window.DISQUS) {
