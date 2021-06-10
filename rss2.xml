@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 09 Jun 2021 14:44:12 GMT</pubDate>
+    <pubDate>Thu, 10 Jun 2021 13:26:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210610</title>
+      <link>https://codingppushu.github.io/2021/06/10/TIL-210610/</link>
+      <guid>https://codingppushu.github.io/2021/06/10/TIL-210610/</guid>
+      <pubDate>Thu, 10 Jun 2021 12:49:25 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
+  &lt;th colspan=&#39;4&#39;&gt;Node.js + M</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>Node.js + MongoDB</th>  <tr style="text-align:center; background-color:#fff">    <td>Socket.io</td>    <td>Broadcast</td>  </tr></table><ul><li>Socket.io<ul><li>실시간으로 문자를 주고받고 싶으면 GET/POST 요청은 안쓰는게 좋음<ul><li>부가정보들이 들어있어서 무겁기 때문에 적합하지 않음</li></ul></li><li>설치<ul><li>npm install socket.io</li></ul></li><li>emit : 서버로 문자 보내기</li><li>on(‘이벤트명’) 으로 문자 수신</li><li>Broadcast<ul><li>모두에게 전파</li></ul></li></ul></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/06/10/TIL-210610/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210609</title>
@@ -254,33 +281,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/05/30/TIL-210530/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210529</title>
-      <link>https://codingppushu.github.io/2021/05/29/TIL-210529/</link>
-      <guid>https://codingppushu.github.io/2021/05/29/TIL-210529/</guid>
-      <pubDate>Sat, 29 May 2021 12:48:08 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th colspan=&#39;4&#39;&gt;Vue-project</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>Vue-project</th>  <tr style="text-align:center; background-color:#fff">    <td style="width:30%">style 속성 데이터 바인딩</td>    <td style="width:30%">ajax - 더보기 버튼</td>    <td style="width:30%">mitt</td>  </tr></table><ul><li>style 속성 데이터 바인딩<ul><li>:style=”코드내용”</li><li>object 데이터 형태로 여러자기 css 속성 넣을 수 있음</li></ul></li><li>ajax - 더보기 버튼<ul><li>새로고침 없이 서버에서 데이터를 가져와서 보여줄 수 있음</li><li>호환성을 위해 axios 사용</li></ul></li><li>mitt 라이브러리<ul><li>먼 곳에 떨어진 컴포넌트에 데이터 전송할 수 있음</li></ul></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/05/29/TIL-210529/#disqus_thread</comments>
       
     </item>
     

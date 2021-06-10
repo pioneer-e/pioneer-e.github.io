@@ -20,16 +20,20 @@
     var CONFIG = {"hostname":"codingppushu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="codingPpushu&#39;s dev story">
-<meta property="og:url" content="https://codingppushu.github.io/archives/2021/03/index.html">
+  <meta name="description" content="What?   Node.js + MongoDB        Socket.io     Broadcast       Socket.io 실시간으로 문자를 주고받고 싶으면 GET&#x2F;POST 요청은 안쓰는게 좋음 부가정보들이 들어있어서 무겁기 때문에 적합하지 않음   설치 npm install socket.io   emit : 서버로 문자 보내기 on(‘이벤트명’)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TIL-210610">
+<meta property="og:url" content="https://codingppushu.github.io/2021/06/10/TIL-210610/index.html">
 <meta property="og:site_name" content="codingPpushu&#39;s dev story">
+<meta property="og:description" content="What?   Node.js + MongoDB        Socket.io     Broadcast       Socket.io 실시간으로 문자를 주고받고 싶으면 GET&#x2F;POST 요청은 안쓰는게 좋음 부가정보들이 들어있어서 무겁기 때문에 적합하지 않음   설치 npm install socket.io   emit : 서버로 문자 보내기 on(‘이벤트명’)">
 <meta property="og:locale" content="ko_KR">
+<meta property="article:published_time" content="2021-06-10T12:49:25.000Z">
+<meta property="article:modified_time" content="2021-06-10T13:26:22.821Z">
 <meta property="article:author" content="codingPpushu">
-<meta property="article:tag" content="html,css,javascript,nodejs">
+<meta property="article:tag" content="TIL">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://codingppushu.github.io/archives/2021/03/">
+<link rel="canonical" href="https://codingppushu.github.io/2021/06/10/TIL-210610/">
 
 
 <script id="page-configurations">
@@ -37,12 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'ko'
   };
 </script>
 
-  <title>아카이브 | codingPpushu's dev story</title>
+  <title>TIL-210610 | codingPpushu's dev story</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZL1DFSNPM"></script>
     <script>
@@ -161,240 +165,151 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/06/10/TIL-210610/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="codingPpushu">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="codingPpushu's dev story">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          TIL-210610
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">작성일</span>
+              
+
+              <time title="Post created: 2021-06-10 21:49:25 / Updated at: 22:26:22" itemprop="dateCreated datePublished" datetime="2021-06-10T21:49:25+09:00">2021-06-10</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        
-        <span class="collection-header">좋아요! 총 98개의 포스트 포스트를 마저 작성하세요</span>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2021/06/10/TIL-210610/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/06/10/TIL-210610/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+      <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
-    </div>
+        <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
+  <th colspan='4'>Node.js + MongoDB</th>
+  <tr style="text-align:center; background-color:#fff">
+    <td>Socket.io</td>
+    <td>Broadcast</td>
+  </tr>
+</table>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-31T22:31:59+09:00"
-              content="2021-03-31">
-          03-31
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/31/TIL-210330-210331/" itemprop="url">
-            <span itemprop="name">TIL-210330-210331</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-29T23:05:38+09:00"
-              content="2021-03-29">
-          03-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/29/TIL-210329/" itemprop="url">
-            <span itemprop="name">TIL-210329</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-27T23:47:58+09:00"
-              content="2021-03-27">
-          03-27
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/27/TIL-210327/" itemprop="url">
-            <span itemprop="name">TIL-210327</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-26T23:56:15+09:00"
-              content="2021-03-26">
-          03-26
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/26/TIL-210326/" itemprop="url">
-            <span itemprop="name">TIL-210326</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-25T23:43:03+09:00"
-              content="2021-03-25">
-          03-25
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/25/TIL-210325/" itemprop="url">
-            <span itemprop="name">TIL-210325</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-24T23:57:01+09:00"
-              content="2021-03-24">
-          03-24
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/24/TIL-210324/" itemprop="url">
-            <span itemprop="name">TIL-210324</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-23T23:43:17+09:00"
-              content="2021-03-23">
-          03-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/23/TIL-210323/" itemprop="url">
-            <span itemprop="name">TIL-210323</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-22T23:46:04+09:00"
-              content="2021-03-22">
-          03-22
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/22/TIL-210322/" itemprop="url">
-            <span itemprop="name">TIL-210322</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-21T20:05:45+09:00"
-              content="2021-03-21">
-          03-21
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/21/TIL-210321/" itemprop="url">
-            <span itemprop="name">TIL-210321</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-20T22:36:34+09:00"
-              content="2021-03-20">
-          03-20
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/20/TIL-210320/" itemprop="url">
-            <span itemprop="name">TIL-210320</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+<ul>
+<li>Socket.io<ul>
+<li>실시간으로 문자를 주고받고 싶으면 GET/POST 요청은 안쓰는게 좋음<ul>
+<li>부가정보들이 들어있어서 무겁기 때문에 적합하지 않음</li>
+</ul>
+</li>
+<li>설치<ul>
+<li>npm install socket.io</li>
+</ul>
+</li>
+<li>emit : 서버로 문자 보내기</li>
+<li>on(‘이벤트명’) 으로 문자 수신</li>
+<li>Broadcast<ul>
+<li>모두에게 전파</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
     </div>
-  </div>
-  
-  
-  
+    <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/TIL/" rel="tag"># TIL</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/06/09/TIL-210609/" rel="prev" title="TIL-210609">
+      <i class="fa fa-chevron-left"></i> TIL-210609
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
   
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/archives/2021/03/page/2/">2</a><a class="extend next" rel="next" href="/archives/2021/03/page/2/"><i class="fa fa-angle-right" aria-label="다음 페이지"></i></a>
-  </nav>
+  
+  
 
 
 
           </div>
           
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -441,6 +356,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#What"><span class="nav-number">1.</span> <span class="nav-text">What?</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -590,6 +506,26 @@
   }
   // defer loading until the whole page loading is completed
   window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://codingppushu.github.io/2021/06/10/TIL-210610/";
+    this.page.identifier = "2021/06/10/TIL-210610/";
+    this.page.title = "TIL-210610";
+    };
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://codingppushu-blog.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
 </script>
 
 </body>
