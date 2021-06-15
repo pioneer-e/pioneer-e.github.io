@@ -9,8 +9,37 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 12 Jun 2021 14:58:46 GMT</pubDate>
+    <pubDate>Tue, 15 Jun 2021 15:20:20 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210616</title>
+      <link>https://codingppushu.github.io/2021/06/16/TIL-210616/</link>
+      <guid>https://codingppushu.github.io/2021/06/16/TIL-210616/</guid>
+      <pubDate>Tue, 15 Jun 2021 15:17:50 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;react movie app 프로젝트 완료&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;🚀 &lt;strong</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li><p>react movie app 프로젝트 완료</p></li><li><p>🚀 <strong>react-amazon-clone project</strong> 🚀<br>전날 공부했던 코드들은 싹 다 지우고 처음부터 다시 작업을 진행했다.<br>중요한 건 output이기 때문에 구현을 자주 해봐야한다.<br>다시 구현해보면서 놓쳤던 부분들도 확인되고 훨씬 더 기억에 잘 남는 거 같다.<br>무언가를 배울 때 input도 중요하지만, 더 많이 output해야 오롯이 내 것이 된다.</p></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/06/16/TIL-210616/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210612</title>
@@ -255,33 +284,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/06/02/TIL-210602/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210601</title>
-      <link>https://codingppushu.github.io/2021/06/01/TIL-210601/</link>
-      <guid>https://codingppushu.github.io/2021/06/01/TIL-210601/</guid>
-      <pubDate>Tue, 01 Jun 2021 08:25:38 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th colspan=&#39;4&#39;&gt;Vue-project</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>Vue-project</th>  <tr style="text-align:center; background-color:#fff">    <td>Vue devtools</td>    <td>Composition API</td>    <td>json</td>    <td>Lifecycle hook</td>  </tr></table><ul><li>Vue devtools<ul><li>에러로 알려주지 않는 부분을 위해 설치 (크롬 확장 프로그램)</li></ul></li><li>Composition API<ul><li>파일을 쪼개지 않고 관련 기능을 한 곳에 모아두고 싶을 때 사용</li><li>setup() 이라는 hook 같은 걸 만들고 그 안에 코드를 짜면됨</li><li>데이터는 ref() 담고 return{} 해줘야 위에서 사용가능<ul><li>var 데이터이름 = ref(데이터)</li><li>return { 데이터이름 }</li></ul></li><li>ajax 요청하는 법 동일함<ul><li>axios 사용하면 됨</li><li>단, 데이터 수정 방법은 다름<ul><li>ref()로 만드는 데이터는 object 자료형이기 때문에 .value로 object 안의 데이터를 수정해줘야 함</li></ul></li></ul></li><li>json<ul><li>웹에서 서버랑 데이터를 주고 받을 때 항상 json 형식으로 주고 받아야함</li></ul></li><li>Lifecycle hook<ul><li>Lifecycle 함수명은 원래 이름 앞에 on만 붙이면 됨</li></ul></li></ul></li><li>결론: 모든건 선택사항이고 기존대로 Options API를 사용해도 된다.</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/06/01/TIL-210601/#disqus_thread</comments>
       
     </item>
     
