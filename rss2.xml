@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 15 Jun 2021 15:20:20 GMT</pubDate>
+    <pubDate>Thu, 17 Jun 2021 14:59:13 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210617</title>
+      <link>https://codingppushu.github.io/2021/06/17/TIL-210617/</link>
+      <guid>https://codingppushu.github.io/2021/06/17/TIL-210617/</guid>
+      <pubDate>Thu, 17 Jun 2021 14:53:28 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;🚀 &lt;strong&gt;react-amazon-clone project&lt;/strong&gt; 🚀&lt;br&gt;장</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li>🚀 <strong>react-amazon-clone project</strong> 🚀<br>장바구니 기능과 로그인 구현 기능까지 작업을 했다.<br>로그인 기능은 firebase 로 작업을 했다.<br>장바구니 기능은 작업하는데 헷갈리고 에러가 자주났다.<br>아무래도 리액트가 익숙하지 않아서 그런거 같다. 😓<br>앞으로도 계속 코드를 지우고 구현해봐야겠다.</li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/06/17/TIL-210617/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210616</title>
@@ -255,35 +282,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/06/03/TIL-210603/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210602</title>
-      <link>https://codingppushu.github.io/2021/06/02/TIL-210602/</link>
-      <guid>https://codingppushu.github.io/2021/06/02/TIL-210602/</guid>
-      <pubDate>Wed, 02 Jun 2021 14:26:08 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;진행중🚀&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Node.js, MongoDB&lt;/li&gt;
-&lt;l</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><p><strong>진행중🚀</strong></p><ul><li>Node.js, MongoDB</li><li>JavaScript 객체지향 &amp; ES6 신문법 - 복습<ul><li>this ~ rest 까지</li></ul></li></ul><p><strong>완료✅</strong></p><ul><li>Vue-project</li><li>React-project</li><li>JavaScript/jQuery</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/06/02/TIL-210602/#disqus_thread</comments>
       
     </item>
     
