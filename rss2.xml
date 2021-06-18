@@ -9,8 +9,35 @@
     <atom:link href="https://codingppushu.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 17 Jun 2021 15:01:15 GMT</pubDate>
+    <pubDate>Fri, 18 Jun 2021 13:00:49 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>TIL-210617</title>
+      <link>https://codingppushu.github.io/2021/06/18/TIL-210618/</link>
+      <guid>https://codingppushu.github.io/2021/06/18/TIL-210618/</guid>
+      <pubDate>Thu, 17 Jun 2021 15:13:04 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;🚀 &lt;strong&gt;react-amazon-clone project&lt;/strong&gt; 🚀&lt;/</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul><li><p>🚀 <strong>react-amazon-clone project</strong> 🚀</p><ul><li><p><img src="/images/til/210617__react-error.jpg"></p><p><strong>Error: Objects are not valid as a React child (found: object with keys {text}). If you meant to render a collection of children, use an array instead.</strong></p><p>해결법 : props 값을 확인하면 된다. 나같은 경우는 여러개의 props를 전달하고 있었는데 중괄호를 빼먹었다..하하 잘 확인해야겠다.</p></li></ul></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
+      
+      
+      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
+      
+      
+      <comments>https://codingppushu.github.io/2021/06/18/TIL-210618/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>TIL-210617</title>
@@ -255,33 +282,6 @@
       
       
       <comments>https://codingppushu.github.io/2021/06/04/TIL-210604/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>TIL-210603</title>
-      <link>https://codingppushu.github.io/2021/06/03/TIL-210603/</link>
-      <guid>https://codingppushu.github.io/2021/06/03/TIL-210603/</guid>
-      <pubDate>Thu, 03 Jun 2021 13:54:19 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What?&quot;&gt;&lt;/a&gt;What?&lt;/h1&gt;&lt;table style=&quot;text-align:center&quot;&gt;
-  &lt;th colspan=&#39;4&#39;&gt;Node.js&lt;/th</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">  <th colspan='4'>Node.js</th>  <tr style="text-align:center; background-color:#fff">    <td style="width:25%">Express</td>    <td style="width:25%">GET</td>    <td style="width:25%">서버 -> HTML파일 전송</td>    <td style="width:25%">Nodemon</td>  </tr></table><ul><li>Express<ul><li>서버 생성을 도와주는 라이브러리</li></ul></li><li>GET<ul><li>주소창에 URL을 입력해서 서버에 요청</li><li>app.listen(포트번호, function(){실행할코드})</li></ul></li><li>Nodemon<ul><li>서버 실행을 자동화 할 수 있게 도와주는 라이브러리</li></ul></li><li>서버에서 HTML파일 전송<ul><li>sendFile()</li><li>__dirname : 현재 파일 경로</li></ul></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://codingppushu.github.io/categories/TIL/">TIL</category>
-      
-      
-      <category domain="https://codingppushu.github.io/tags/TIL/">TIL</category>
-      
-      
-      <comments>https://codingppushu.github.io/2021/06/03/TIL-210603/#disqus_thread</comments>
       
     </item>
     
