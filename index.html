@@ -1,1385 +1,1378 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 5.3.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
+    <meta name="theme-color" content="#222" />
+    <meta name="generator" content="Hexo 5.3.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png" />
+    <link rel="mask-icon" href="/images/logo.svg" color="#222" />
 
-<link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/main.css" />
 
+    <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css" />
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+    <script id="hexo-configurations">
+      var NexT = window.NexT || {};
+      var CONFIG = {
+        hostname: 'pioneer-e.github.io',
+        root: '/',
+        scheme: 'Muse',
+        version: '7.8.0',
+        exturl: false,
+        sidebar: { position: 'left', display: 'post', padding: 18, offset: 12, onmobile: false },
+        copycode: { enable: false, show_result: false, style: null },
+        back2top: { enable: true, sidebar: false, scrollpercent: false },
+        bookmark: { enable: false, color: '#222', save: 'auto' },
+        fancybox: false,
+        mediumzoom: false,
+        lazyload: false,
+        pangu: false,
+        comments: { style: 'tabs', active: null, storage: true, lazyload: false, nav: null },
+        algolia: {
+          hits: { per_page: 10 },
+          labels: {
+            input_placeholder: 'Search for Posts',
+            hits_empty: "We didn't find any results for the search: ${query}",
+            hits_stats: '${hits} results found in ${time} ms',
+          },
+        },
+        localsearch: { enable: false, trigger: 'auto', top_n_per_article: 1, unescape: false, preload: false },
+        motion: {
+          enable: true,
+          async: false,
+          transition: {
+            post_block: 'fadeIn',
+            post_header: 'slideDownIn',
+            post_body: 'slideDownIn',
+            coll_header: 'slideLeftIn',
+            sidebar: 'slideUpIn',
+          },
+        },
+      };
+    </script>
 
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"codingppushu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="pioneer-e&#39;s dev story" />
+    <meta property="og:url" content="https://pioneer-e.github.io/index.html" />
+    <meta property="og:site_name" content="pioneer-e&#39;s dev story" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="article:author" content="pioneer-e" />
+    <meta property="article:tag" content="html,css,javascript,nodejs" />
+    <meta name="twitter:card" content="summary" />
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="codingPpushu&#39;s dev story">
-<meta property="og:url" content="https://codingppushu.github.io/index.html">
-<meta property="og:site_name" content="codingPpushu&#39;s dev story">
-<meta property="og:locale" content="ko_KR">
-<meta property="article:author" content="codingPpushu">
-<meta property="article:tag" content="html,css,javascript,nodejs">
-<meta name="twitter:card" content="summary">
+    <link rel="canonical" href="https://pioneer-e.github.io/" />
 
-<link rel="canonical" href="https://codingppushu.github.io/">
+    <script id="page-configurations">
+      // https://hexo.io/docs/variables.html
+      CONFIG.page = {
+        sidebar: '',
+        isHome: true,
+        isPost: false,
+        lang: 'ko',
+      };
+    </script>
 
+    <title>pioneer-e's dev story</title>
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'ko'
-  };
-</script>
-
-  <title>codingPpushu's dev story</title>
-  
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KZL1DFSNPM"></script>
     <script>
       if (CONFIG.hostname === location.hostname) {
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() {
+          dataLayer.push(arguments);
+        }
         gtag('js', new Date());
         gtag('config', 'G-KZL1DFSNPM');
       }
     </script>
 
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-<link rel="alternate" href="/rss2.xml" title="codingPpushu's dev story" type="application/rss+xml">
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">codingPpushu's dev story</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-      <p class="site-subtitle" itemprop="description">Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.</p>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>홈</a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>카테고리</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>아카이브</a>
-
-  </li>
-  </ul>
-</nav>
-
-
-
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content index posts-expand">
-            
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/06/28/TIL-210628/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="codingPpushu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="codingPpushu's dev story">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/28/TIL-210628/" class="post-title-link" itemprop="url">TIL-210628</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">작성일</span>
-              
-
-              <time title="Post created: 2021-06-28 21:35:27 / Updated at: 21:41:49" itemprop="dateCreated datePublished" datetime="2021-06-28T21:35:27+09:00">2021-06-28</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2021/06/28/TIL-210628/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/06/28/TIL-210628/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-      <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-      
-          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul>
-<li>TypeError: Cannot read property ‘map’ of undefined<ul>
-<li>해결책 1. useState에 기본 초기값 제공</li>
-<li>해결책 2. [].map(…)</li>
-<li>해결책 3. items &amp;&amp; items.map</li>
-</ul>
-</li>
-</ul>
-
-      
-    </div>
-    <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/06/21/TIL-210621/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="codingPpushu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="codingPpushu's dev story">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/21/TIL-210621/" class="post-title-link" itemprop="url">TIL-210621</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">작성일</span>
-              
-
-              <time title="Post created: 2021-06-21 23:42:36 / Updated at: 23:48:48" itemprop="dateCreated datePublished" datetime="2021-06-21T23:42:36+09:00">2021-06-21</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2021/06/21/TIL-210621/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/06/21/TIL-210621/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-      <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-      
-          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul>
-<li><p>🚀 <strong>react-amazon-clone project</strong> 🚀</p>
-<p>드디어 아마존 클론 프로젝트 마무리! 🎉🎉🎉<br>아직 부족한 점이 많아 익숙해질 때까지 out 해야겠다.</p>
-</li>
-</ul>
-
-      
-    </div>
-    <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/06/18/TIL-210618/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="codingPpushu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="codingPpushu's dev story">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/18/TIL-210618/" class="post-title-link" itemprop="url">TIL-210618</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">작성일</span>
-
-              <time title="Post created: 2021-06-18 00:13:04" itemprop="dateCreated datePublished" datetime="2021-06-18T00:13:04+09:00">2021-06-18</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Updated at: 2021-06-21 23:48:13" itemprop="dateModified" datetime="2021-06-21T23:48:13+09:00">2021-06-21</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2021/06/18/TIL-210618/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/06/18/TIL-210618/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-      <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-      
-          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul>
-<li><p>🚀 <strong>react-amazon-clone project</strong> 🚀</p>
-<p>Error: Objects are not valid as a React child (found: object with keys {text}). If you meant to render a collection of children, use an array instead.</p>
-<p>해결법 : props 값을 확인하면 된다. 나같은 경우는 여러개의 props를 전달하고 있었는데 중괄호를 빼먹었다..하하 잘 확인해야겠다.</p>
-</li>
-</ul>
-
-      
-    </div>
-    <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/06/17/TIL-210617/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="codingPpushu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="codingPpushu's dev story">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/17/TIL-210617/" class="post-title-link" itemprop="url">TIL-210617</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">작성일</span>
-
-              <time title="Post created: 2021-06-17 23:53:28" itemprop="dateCreated datePublished" datetime="2021-06-17T23:53:28+09:00">2021-06-17</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Updated at: 2021-06-18 00:01:15" itemprop="dateModified" datetime="2021-06-18T00:01:15+09:00">2021-06-18</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2021/06/17/TIL-210617/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/06/17/TIL-210617/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-      <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-      
-          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul>
-<li>🚀 <strong>react-amazon-clone project</strong> 🚀<br>장바구니 기능과 로그인 구현 기능까지 작업을 했다.<br>로그인 기능은 firebase 로 작업을 했다.<br>장바구니 작업은 자꾸 헷갈리고 에러가 자주났다.<br>아무래도 리액트가 익숙하지 않아서 그런거 같다. 😓<br>앞으로도 계속 코드를 지우고 구현해봐야겠다.</li>
-</ul>
-
-      
-    </div>
-    <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/06/16/TIL-210616/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="codingPpushu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="codingPpushu's dev story">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/16/TIL-210616/" class="post-title-link" itemprop="url">TIL-210616</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">작성일</span>
-              
-
-              <time title="Post created: 2021-06-16 00:17:50 / Updated at: 00:20:20" itemprop="dateCreated datePublished" datetime="2021-06-16T00:17:50+09:00">2021-06-16</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2021/06/16/TIL-210616/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/06/16/TIL-210616/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-      <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-      
-          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul>
-<li><p>react movie app 프로젝트 완료</p>
-</li>
-<li><p>🚀 <strong>react-amazon-clone project</strong> 🚀<br>전날 공부했던 코드들은 싹 다 지우고 처음부터 다시 작업을 진행했다.<br>중요한 건 output이기 때문에 구현을 자주 해봐야한다.<br>다시 구현해보면서 놓쳤던 부분들도 확인되고 훨씬 더 기억에 잘 남는 거 같다.<br>무언가를 배울 때 input도 중요하지만, 더 많이 output해야 오롯이 내 것이 된다.</p>
-</li>
-</ul>
-
-      
-    </div>
-    <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/06/12/TIL-210612/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="codingPpushu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="codingPpushu's dev story">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/12/TIL-210612/" class="post-title-link" itemprop="url">TIL-210612</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">작성일</span>
-              
-
-              <time title="Post created: 2021-06-12 23:45:50 / Updated at: 23:58:46" itemprop="dateCreated datePublished" datetime="2021-06-12T23:45:50+09:00">2021-06-12</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2021/06/12/TIL-210612/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/06/12/TIL-210612/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-      <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-      
-          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><ul>
-<li>🚀 <strong>Movie-App Project</strong> 🚀<ul>
-<li>react movie app 프로젝트 시작<ul>
-<li>API 불러오기 (data)</li>
-<li>검색 기능</li>
-<li>Main layout, CSS 작업</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-      
-    </div>
-    <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/06/10/TIL-210610/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="codingPpushu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="codingPpushu's dev story">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/10/TIL-210610/" class="post-title-link" itemprop="url">TIL-210610</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">작성일</span>
-
-              <time title="Post created: 2021-06-10 21:49:25" itemprop="dateCreated datePublished" datetime="2021-06-10T21:49:25+09:00">2021-06-10</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Updated at: 2021-06-12 23:50:28" itemprop="dateModified" datetime="2021-06-12T23:50:28+09:00">2021-06-12</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2021/06/10/TIL-210610/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/06/10/TIL-210610/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-      <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-      
-          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
-  <th colspan='4'>Node.js + MongoDB</th>
-  <tr style="text-align:center; background-color:#fff">
-    <td>Socket.io</td>
-    <td>Broadcast</td>
-  </tr>
-</table>
-
-<h1 id="What-1"><a href="#What-1" class="headerlink" title="What?"></a>What?</h1><p>🚀 진행중</p>
-<ul>
-<li>JavaScript 객체지향 &amp; ES6 신문법 - 복습<ul>
-<li>this ~ rest 까지</li>
-</ul>
-</li>
-</ul>
-<p>✅ 완료</p>
-<ul>
-<li>🥇 Node.js + MongoDB 🥇</li>
-<li>Vue-project</li>
-<li>React-project</li>
-<li>JavaScript/jQuery</li>
-</ul>
-
-      
-    </div>
-    <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/06/09/TIL-210609/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="codingPpushu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="codingPpushu's dev story">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/09/TIL-210609/" class="post-title-link" itemprop="url">TIL-210609</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">작성일</span>
-              
-
-              <time title="Post created: 2021-06-09 00:09:33 / Updated at: 23:44:12" itemprop="dateCreated datePublished" datetime="2021-06-09T00:09:33+09:00">2021-06-09</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2021/06/09/TIL-210609/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/06/09/TIL-210609/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-      <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-      
-          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
-  <th colspan='4'>Node.js + MongoDB</th>
-  <tr style="text-align:center; background-color:#fff">
-    <td>Search index</td>
-    <td>회원기능</td>
-    <td>multer</td>
-  </tr>
-</table>
-
-<ul>
-<li>Search index<ul>
-<li>MongoDB Atlas에서만 제공하는 기능</li>
-<li>Analyzer에서 lucene.korean으로 설정<ul>
-<li>한국어에 맞게 인덱싱 하기 위함</li>
-</ul>
-</li>
-<li>aggregate()<ul>
-<li>검색 조건을 여러개 붙일 수 있음 (데이터를 꺼내는 파이프라인 구축)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>회원기능<ul>
-<li>form 만들고 전송 누르면 서버로 보내고 DB에 저장시키면 끝</li>
-</ul>
-</li>
-<li>multer 라이브러리<ul>
-<li>multipart/form-data를 통해 업로드 된 파일을 쉽게 저장, 이름 변경 할 수 있게 도와줌</li>
-</ul>
-</li>
-</ul>
-
-      
-    </div>
-    <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/06/08/TIL-210608/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="codingPpushu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="codingPpushu's dev story">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/08/TIL-210608/" class="post-title-link" itemprop="url">TIL-210608</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">작성일</span>
-              
-
-              <time title="Post created: 2021-06-08 21:50:44 / Updated at: 23:28:03" itemprop="dateCreated datePublished" datetime="2021-06-08T21:50:44+09:00">2021-06-08</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2021/06/08/TIL-210608/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/06/08/TIL-210608/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-      <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-      
-          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
-  <th colspan='4'>Node.js + MongoDB</th>
-  <tr style="text-align:center; background-color:#fff">
-    <td>.env</td>
-    <td>환경변수</td>
-    <td>URL query string</td>
-    <td>indexing</td>
-  </tr>
-</table>
-
-<ul>
-<li>.env<ul>
-<li>라이브러리 사용 : npm install dotenv</li>
-<li>환경변수를 한 곳에 모아서 관리</li>
-</ul>
-</li>
-<li>환경변수 : 환경에 따라 가변적인 변수 데이터</li>
-<li>URL query string<ul>
-<li>GET 요청시 URL 뒤에 데이터를 심어 서버로 보낸다.</li>
-<li>데이터이름=데이터값</li>
-<li>서버에선 요청.query로 query string 전부 꺼내볼 수 있음</li>
-</ul>
-</li>
-<li>indexing<ul>
-<li>미리 정렬한다.</li>
-<li>index : collection을 정렬 해놓은 사본</li>
-</ul>
-</li>
-</ul>
-
-      
-    </div>
-    <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
-    <link itemprop="mainEntityOfPage" href="https://codingppushu.github.io/2021/06/07/TIL-210607/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="codingPpushu">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="codingPpushu's dev story">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/06/07/TIL-210607/" class="post-title-link" itemprop="url">TIL-210607</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">작성일</span>
-              
-
-              <time title="Post created: 2021-06-07 23:16:58 / Updated at: 23:15:42" itemprop="dateCreated datePublished" datetime="2021-06-07T23:16:58+09:00">2021-06-07</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2021/06/07/TIL-210607/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/06/07/TIL-210607/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-      <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-      
-          <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1><table style="text-align:center">
-  <th colspan='4'>Node.js + MongoDB</th>
-  <tr style="text-align:center; background-color:#fff">
-    <td>method-override</td>
-    <td>DB데이터 수정</td>
-    <td>로그인 페이지/아이디 비번 검사</td>
-    <td>미들웨어</td>
-  </tr>
-    <tr style="text-align:center; background-color:#fff">
-    <td>LocalStrategy()</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
-<ul>
-<li>method-override<ul>
-<li>HTML에서 PUT/DELETE 요청을 도와주는 라이브러리</li>
-</ul>
-</li>
-<li>DB데이터 수정<ul>
-<li>서버로 put 요청 들어오면 수정 처리</li>
-<li>updateOne(업데이트할내용, 수정할내용, 콜백함수) 사용</li>
-</ul>
-</li>
-<li>로그인 페이지/아이디 비번 검사<ul>
-<li>로그인/세션 생성을 도와줄 라이브러리 설치<ul>
-<li>npm install passport passport-local express-session</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>미들웨어<ul>
-<li>요청과 응답 사이에 실행시키는 코드</li>
-</ul>
-</li>
-<li>LocalStrategy()<ul>
-<li>LocalStrategy( { 설정 }, function(){ 아이디 비번 검사하는 코드 } )</li>
-</ul>
-</li>
-</ul>
-
-      
-    </div>
-    <script data-ad-client="ca-pub-2623987715139454" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="다음 페이지"></i></a>
-  </nav>
-
-
-
+    <noscript>
+      <style>
+        .use-motion .brand,
+        .use-motion .menu-item,
+        .sidebar-inner,
+        .use-motion .post-block,
+        .use-motion .pagination,
+        .use-motion .comments,
+        .use-motion .post-header,
+        .use-motion .post-body,
+        .use-motion .collection-header {
+          opacity: initial;
+        }
+
+        .use-motion .site-title,
+        .use-motion .site-subtitle {
+          opacity: initial;
+          top: initial;
+        }
+
+        .use-motion .logo-line-before i {
+          left: initial;
+        }
+        .use-motion .logo-line-after i {
+          right: initial;
+        }
+      </style>
+    </noscript>
+
+    <link rel="alternate" href="/rss2.xml" title="pioneer-e's dev story" type="application/rss+xml" />
+  </head>
+
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <div class="container use-motion">
+      <div class="headband"></div>
+
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner">
+          <div class="site-brand-container">
+            <div class="site-nav-toggle">
+              <div class="toggle" aria-label="Toggle navigation bar">
+                <span class="toggle-line toggle-line-first"></span>
+                <span class="toggle-line toggle-line-middle"></span>
+                <span class="toggle-line toggle-line-last"></span>
+              </div>
+            </div>
+
+            <div class="site-meta">
+              <a href="/" class="brand" rel="start">
+                <span class="logo-line-before"><i></i></span>
+                <h1 class="site-title">pioneer-e's dev story</h1>
+                <span class="logo-line-after"><i></i></span>
+              </a>
+              <p class="site-subtitle" itemprop="description">
+                Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.
+              </p>
+            </div>
+
+            <div class="site-nav-right">
+              <div class="toggle popup-trigger"></div>
+            </div>
           </div>
-          
 
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
+          <nav class="site-nav">
+            <ul id="menu" class="main-menu menu">
+              <li class="menu-item menu-item-home">
+                <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>홈</a>
+              </li>
+              <li class="menu-item menu-item-categories">
+                <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>카테고리</a>
+              </li>
+              <li class="menu-item menu-item-about">
+                <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+              </li>
+              <li class="menu-item menu-item-archives">
+                <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>아카이브</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
+      </header>
 
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          목차
-        </li>
-        <li class="sidebar-nav-overview">
-          흝어보기
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="codingPpushu"
-      src="/images/avatar.jpg">
-  <p class="site-author-name" itemprop="name">codingPpushu</p>
-  <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">104</span>
-          <span class="site-state-item-name">포스트</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">카테고리</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">태그</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="https://github.com/codingPpushu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;codingPpushu" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-  </div>
-
-
-
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        <span>0%</span>
       </div>
 
+      <main class="main">
+        <div class="main-inner">
+          <div class="content-wrap">
+            <div class="content index posts-expand">
+              <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+                <link itemprop="mainEntityOfPage" href="https://pioneer-e.github.io/2021/06/28/TIL-210628/" />
+
+                <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="image" content="/images/avatar.jpg" />
+                  <meta itemprop="name" content="pioneer-e" />
+                  <meta itemprop="description" content="" />
+                </span>
+
+                <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <meta itemprop="name" content="pioneer-e's dev story" />
+                </span>
+                <header class="post-header">
+                  <h2 class="post-title" itemprop="name headline">
+                    <a href="/2021/06/28/TIL-210628/" class="post-title-link" itemprop="url">TIL-210628</a>
+                  </h2>
+
+                  <div class="post-meta">
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar"></i>
+                      </span>
+                      <span class="post-meta-item-text">작성일</span>
+
+                      <time
+                        title="Post created: 2021-06-28 21:35:27 / Updated at: 21:41:49"
+                        itemprop="dateCreated datePublished"
+                        datetime="2021-06-28T21:35:27+09:00"
+                        >2021-06-28</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-folder"></i>
+                      </span>
+                      <span class="post-meta-item-text">In</span>
+                      <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                        <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                      </span>
+                    </span>
+
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-comment"></i>
+                      </span>
+                      <span class="post-meta-item-text">Disqus: </span>
+
+                      <a title="disqus" href="/2021/06/28/TIL-210628/#disqus_thread" itemprop="discussionUrl">
+                        <span
+                          class="post-comments-count disqus-comment-count"
+                          data-disqus-identifier="2021/06/28/TIL-210628/"
+                          itemprop="commentCount"
+                        ></span>
+                      </a>
+                    </span>
+                  </div>
+                </header>
+
+                <div class="post-body" itemprop="articleBody">
+                  <script
+                    data-ad-client="ca-pub-2623987715139454"
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                  ></script>
+
+                  <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1>
+                  <ul>
+                    <li>
+                      TypeError: Cannot read property ‘map’ of undefined
+                      <ul>
+                        <li>해결책 1. useState에 기본 초기값 제공</li>
+                        <li>해결책 2. [].map(…)</li>
+                        <li>해결책 3. items &amp;&amp; items.map</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <script
+                  data-ad-client="ca-pub-2623987715139454"
+                  async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
+
+                <footer class="post-footer">
+                  <div class="post-eof"></div>
+                </footer>
+              </article>
+
+              <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+                <link itemprop="mainEntityOfPage" href="https://pioneer-e.github.io/2021/06/21/TIL-210621/" />
+
+                <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="image" content="/images/avatar.jpg" />
+                  <meta itemprop="name" content="pioneer-e" />
+                  <meta itemprop="description" content="" />
+                </span>
+
+                <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <meta itemprop="name" content="pioneer-e's dev story" />
+                </span>
+                <header class="post-header">
+                  <h2 class="post-title" itemprop="name headline">
+                    <a href="/2021/06/21/TIL-210621/" class="post-title-link" itemprop="url">TIL-210621</a>
+                  </h2>
+
+                  <div class="post-meta">
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar"></i>
+                      </span>
+                      <span class="post-meta-item-text">작성일</span>
+
+                      <time
+                        title="Post created: 2021-06-21 23:42:36 / Updated at: 23:48:48"
+                        itemprop="dateCreated datePublished"
+                        datetime="2021-06-21T23:42:36+09:00"
+                        >2021-06-21</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-folder"></i>
+                      </span>
+                      <span class="post-meta-item-text">In</span>
+                      <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                        <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                      </span>
+                    </span>
+
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-comment"></i>
+                      </span>
+                      <span class="post-meta-item-text">Disqus: </span>
+
+                      <a title="disqus" href="/2021/06/21/TIL-210621/#disqus_thread" itemprop="discussionUrl">
+                        <span
+                          class="post-comments-count disqus-comment-count"
+                          data-disqus-identifier="2021/06/21/TIL-210621/"
+                          itemprop="commentCount"
+                        ></span>
+                      </a>
+                    </span>
+                  </div>
+                </header>
+
+                <div class="post-body" itemprop="articleBody">
+                  <script
+                    data-ad-client="ca-pub-2623987715139454"
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                  ></script>
+
+                  <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1>
+                  <ul>
+                    <li>
+                      <p>🚀 <strong>react-amazon-clone project</strong> 🚀</p>
+                      <p>
+                        드디어 아마존 클론 프로젝트 마무리! 🎉🎉🎉<br />아직 부족한 점이 많아 익숙해질 때까지 out
+                        해야겠다.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <script
+                  data-ad-client="ca-pub-2623987715139454"
+                  async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
+
+                <footer class="post-footer">
+                  <div class="post-eof"></div>
+                </footer>
+              </article>
+
+              <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+                <link itemprop="mainEntityOfPage" href="https://pioneer-e.github.io/2021/06/18/TIL-210618/" />
+
+                <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="image" content="/images/avatar.jpg" />
+                  <meta itemprop="name" content="pioneer-e" />
+                  <meta itemprop="description" content="" />
+                </span>
+
+                <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <meta itemprop="name" content="pioneer-e's dev story" />
+                </span>
+                <header class="post-header">
+                  <h2 class="post-title" itemprop="name headline">
+                    <a href="/2021/06/18/TIL-210618/" class="post-title-link" itemprop="url">TIL-210618</a>
+                  </h2>
+
+                  <div class="post-meta">
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar"></i>
+                      </span>
+                      <span class="post-meta-item-text">작성일</span>
+
+                      <time
+                        title="Post created: 2021-06-18 00:13:04"
+                        itemprop="dateCreated datePublished"
+                        datetime="2021-06-18T00:13:04+09:00"
+                        >2021-06-18</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar-check"></i>
+                      </span>
+                      <span class="post-meta-item-text">Edited on</span>
+                      <time
+                        title="Updated at: 2021-06-21 23:48:13"
+                        itemprop="dateModified"
+                        datetime="2021-06-21T23:48:13+09:00"
+                        >2021-06-21</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-folder"></i>
+                      </span>
+                      <span class="post-meta-item-text">In</span>
+                      <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                        <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                      </span>
+                    </span>
+
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-comment"></i>
+                      </span>
+                      <span class="post-meta-item-text">Disqus: </span>
+
+                      <a title="disqus" href="/2021/06/18/TIL-210618/#disqus_thread" itemprop="discussionUrl">
+                        <span
+                          class="post-comments-count disqus-comment-count"
+                          data-disqus-identifier="2021/06/18/TIL-210618/"
+                          itemprop="commentCount"
+                        ></span>
+                      </a>
+                    </span>
+                  </div>
+                </header>
+
+                <div class="post-body" itemprop="articleBody">
+                  <script
+                    data-ad-client="ca-pub-2623987715139454"
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                  ></script>
+
+                  <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1>
+                  <ul>
+                    <li>
+                      <p>🚀 <strong>react-amazon-clone project</strong> 🚀</p>
+                      <p>
+                        Error: Objects are not valid as a React child (found: object with keys {text}). If you meant to
+                        render a collection of children, use an array instead.
+                      </p>
+                      <p>
+                        해결법 : props 값을 확인하면 된다. 나같은 경우는 여러개의 props를 전달하고 있었는데 중괄호를
+                        빼먹었다..하하 잘 확인해야겠다.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <script
+                  data-ad-client="ca-pub-2623987715139454"
+                  async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
+
+                <footer class="post-footer">
+                  <div class="post-eof"></div>
+                </footer>
+              </article>
+
+              <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+                <link itemprop="mainEntityOfPage" href="https://pioneer-e.github.io/2021/06/17/TIL-210617/" />
+
+                <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="image" content="/images/avatar.jpg" />
+                  <meta itemprop="name" content="pioneer-e" />
+                  <meta itemprop="description" content="" />
+                </span>
+
+                <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <meta itemprop="name" content="pioneer-e's dev story" />
+                </span>
+                <header class="post-header">
+                  <h2 class="post-title" itemprop="name headline">
+                    <a href="/2021/06/17/TIL-210617/" class="post-title-link" itemprop="url">TIL-210617</a>
+                  </h2>
+
+                  <div class="post-meta">
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar"></i>
+                      </span>
+                      <span class="post-meta-item-text">작성일</span>
+
+                      <time
+                        title="Post created: 2021-06-17 23:53:28"
+                        itemprop="dateCreated datePublished"
+                        datetime="2021-06-17T23:53:28+09:00"
+                        >2021-06-17</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar-check"></i>
+                      </span>
+                      <span class="post-meta-item-text">Edited on</span>
+                      <time
+                        title="Updated at: 2021-06-18 00:01:15"
+                        itemprop="dateModified"
+                        datetime="2021-06-18T00:01:15+09:00"
+                        >2021-06-18</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-folder"></i>
+                      </span>
+                      <span class="post-meta-item-text">In</span>
+                      <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                        <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                      </span>
+                    </span>
+
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-comment"></i>
+                      </span>
+                      <span class="post-meta-item-text">Disqus: </span>
+
+                      <a title="disqus" href="/2021/06/17/TIL-210617/#disqus_thread" itemprop="discussionUrl">
+                        <span
+                          class="post-comments-count disqus-comment-count"
+                          data-disqus-identifier="2021/06/17/TIL-210617/"
+                          itemprop="commentCount"
+                        ></span>
+                      </a>
+                    </span>
+                  </div>
+                </header>
+
+                <div class="post-body" itemprop="articleBody">
+                  <script
+                    data-ad-client="ca-pub-2623987715139454"
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                  ></script>
+
+                  <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1>
+                  <ul>
+                    <li>
+                      🚀 <strong>react-amazon-clone project</strong> 🚀<br />장바구니 기능과 로그인 구현 기능까지 작업을
+                      했다.<br />로그인 기능은 firebase 로 작업을 했다.<br />장바구니 작업은 자꾸 헷갈리고 에러가
+                      자주났다.<br />아무래도 리액트가 익숙하지 않아서 그런거 같다. 😓<br />앞으로도 계속 코드를 지우고
+                      구현해봐야겠다.
+                    </li>
+                  </ul>
+                </div>
+                <script
+                  data-ad-client="ca-pub-2623987715139454"
+                  async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
+
+                <footer class="post-footer">
+                  <div class="post-eof"></div>
+                </footer>
+              </article>
+
+              <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+                <link itemprop="mainEntityOfPage" href="https://pioneer-e.github.io/2021/06/16/TIL-210616/" />
+
+                <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="image" content="/images/avatar.jpg" />
+                  <meta itemprop="name" content="pioneer-e" />
+                  <meta itemprop="description" content="" />
+                </span>
+
+                <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <meta itemprop="name" content="pioneer-e's dev story" />
+                </span>
+                <header class="post-header">
+                  <h2 class="post-title" itemprop="name headline">
+                    <a href="/2021/06/16/TIL-210616/" class="post-title-link" itemprop="url">TIL-210616</a>
+                  </h2>
+
+                  <div class="post-meta">
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar"></i>
+                      </span>
+                      <span class="post-meta-item-text">작성일</span>
+
+                      <time
+                        title="Post created: 2021-06-16 00:17:50 / Updated at: 00:20:20"
+                        itemprop="dateCreated datePublished"
+                        datetime="2021-06-16T00:17:50+09:00"
+                        >2021-06-16</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-folder"></i>
+                      </span>
+                      <span class="post-meta-item-text">In</span>
+                      <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                        <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                      </span>
+                    </span>
+
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-comment"></i>
+                      </span>
+                      <span class="post-meta-item-text">Disqus: </span>
+
+                      <a title="disqus" href="/2021/06/16/TIL-210616/#disqus_thread" itemprop="discussionUrl">
+                        <span
+                          class="post-comments-count disqus-comment-count"
+                          data-disqus-identifier="2021/06/16/TIL-210616/"
+                          itemprop="commentCount"
+                        ></span>
+                      </a>
+                    </span>
+                  </div>
+                </header>
+
+                <div class="post-body" itemprop="articleBody">
+                  <script
+                    data-ad-client="ca-pub-2623987715139454"
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                  ></script>
+
+                  <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1>
+                  <ul>
+                    <li><p>react movie app 프로젝트 완료</p></li>
+                    <li>
+                      <p>
+                        🚀 <strong>react-amazon-clone project</strong> 🚀<br />전날 공부했던 코드들은 싹 다 지우고
+                        처음부터 다시 작업을 진행했다.<br />중요한 건 output이기 때문에 구현을 자주 해봐야한다.<br />다시
+                        구현해보면서 놓쳤던 부분들도 확인되고 훨씬 더 기억에 잘 남는 거 같다.<br />무언가를 배울 때
+                        input도 중요하지만, 더 많이 output해야 오롯이 내 것이 된다.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <script
+                  data-ad-client="ca-pub-2623987715139454"
+                  async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
+
+                <footer class="post-footer">
+                  <div class="post-eof"></div>
+                </footer>
+              </article>
+
+              <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+                <link itemprop="mainEntityOfPage" href="https://pioneer-e.github.io/2021/06/12/TIL-210612/" />
+
+                <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="image" content="/images/avatar.jpg" />
+                  <meta itemprop="name" content="pioneer-e" />
+                  <meta itemprop="description" content="" />
+                </span>
+
+                <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <meta itemprop="name" content="pioneer-e's dev story" />
+                </span>
+                <header class="post-header">
+                  <h2 class="post-title" itemprop="name headline">
+                    <a href="/2021/06/12/TIL-210612/" class="post-title-link" itemprop="url">TIL-210612</a>
+                  </h2>
+
+                  <div class="post-meta">
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar"></i>
+                      </span>
+                      <span class="post-meta-item-text">작성일</span>
+
+                      <time
+                        title="Post created: 2021-06-12 23:45:50 / Updated at: 23:58:46"
+                        itemprop="dateCreated datePublished"
+                        datetime="2021-06-12T23:45:50+09:00"
+                        >2021-06-12</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-folder"></i>
+                      </span>
+                      <span class="post-meta-item-text">In</span>
+                      <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                        <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                      </span>
+                    </span>
+
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-comment"></i>
+                      </span>
+                      <span class="post-meta-item-text">Disqus: </span>
+
+                      <a title="disqus" href="/2021/06/12/TIL-210612/#disqus_thread" itemprop="discussionUrl">
+                        <span
+                          class="post-comments-count disqus-comment-count"
+                          data-disqus-identifier="2021/06/12/TIL-210612/"
+                          itemprop="commentCount"
+                        ></span>
+                      </a>
+                    </span>
+                  </div>
+                </header>
+
+                <div class="post-body" itemprop="articleBody">
+                  <script
+                    data-ad-client="ca-pub-2623987715139454"
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                  ></script>
+
+                  <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1>
+                  <ul>
+                    <li>
+                      🚀 <strong>Movie-App Project</strong> 🚀
+                      <ul>
+                        <li>
+                          react movie app 프로젝트 시작
+                          <ul>
+                            <li>API 불러오기 (data)</li>
+                            <li>검색 기능</li>
+                            <li>Main layout, CSS 작업</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <script
+                  data-ad-client="ca-pub-2623987715139454"
+                  async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
+
+                <footer class="post-footer">
+                  <div class="post-eof"></div>
+                </footer>
+              </article>
+
+              <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+                <link itemprop="mainEntityOfPage" href="https://pioneer-e.github.io/2021/06/10/TIL-210610/" />
+
+                <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="image" content="/images/avatar.jpg" />
+                  <meta itemprop="name" content="pioneer-e" />
+                  <meta itemprop="description" content="" />
+                </span>
+
+                <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <meta itemprop="name" content="pioneer-e's dev story" />
+                </span>
+                <header class="post-header">
+                  <h2 class="post-title" itemprop="name headline">
+                    <a href="/2021/06/10/TIL-210610/" class="post-title-link" itemprop="url">TIL-210610</a>
+                  </h2>
+
+                  <div class="post-meta">
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar"></i>
+                      </span>
+                      <span class="post-meta-item-text">작성일</span>
+
+                      <time
+                        title="Post created: 2021-06-10 21:49:25"
+                        itemprop="dateCreated datePublished"
+                        datetime="2021-06-10T21:49:25+09:00"
+                        >2021-06-10</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar-check"></i>
+                      </span>
+                      <span class="post-meta-item-text">Edited on</span>
+                      <time
+                        title="Updated at: 2021-06-12 23:50:28"
+                        itemprop="dateModified"
+                        datetime="2021-06-12T23:50:28+09:00"
+                        >2021-06-12</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-folder"></i>
+                      </span>
+                      <span class="post-meta-item-text">In</span>
+                      <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                        <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                      </span>
+                    </span>
+
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-comment"></i>
+                      </span>
+                      <span class="post-meta-item-text">Disqus: </span>
+
+                      <a title="disqus" href="/2021/06/10/TIL-210610/#disqus_thread" itemprop="discussionUrl">
+                        <span
+                          class="post-comments-count disqus-comment-count"
+                          data-disqus-identifier="2021/06/10/TIL-210610/"
+                          itemprop="commentCount"
+                        ></span>
+                      </a>
+                    </span>
+                  </div>
+                </header>
+
+                <div class="post-body" itemprop="articleBody">
+                  <script
+                    data-ad-client="ca-pub-2623987715139454"
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                  ></script>
+
+                  <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1>
+                  <table style="text-align: center">
+                    <th colspan="4">Node.js + MongoDB</th>
+                    <tr style="text-align: center; background-color: #fff">
+                      <td>Socket.io</td>
+                      <td>Broadcast</td>
+                    </tr>
+                  </table>
+
+                  <h1 id="What-1"><a href="#What-1" class="headerlink" title="What?"></a>What?</h1>
+                  <p>🚀 진행중</p>
+                  <ul>
+                    <li>
+                      JavaScript 객체지향 &amp; ES6 신문법 - 복습
+                      <ul>
+                        <li>this ~ rest 까지</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p>✅ 완료</p>
+                  <ul>
+                    <li>🥇 Node.js + MongoDB 🥇</li>
+                    <li>Vue-project</li>
+                    <li>React-project</li>
+                    <li>JavaScript/jQuery</li>
+                  </ul>
+                </div>
+                <script
+                  data-ad-client="ca-pub-2623987715139454"
+                  async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
+
+                <footer class="post-footer">
+                  <div class="post-eof"></div>
+                </footer>
+              </article>
+
+              <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+                <link itemprop="mainEntityOfPage" href="https://pioneer-e.github.io/2021/06/09/TIL-210609/" />
+
+                <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="image" content="/images/avatar.jpg" />
+                  <meta itemprop="name" content="pioneer-e" />
+                  <meta itemprop="description" content="" />
+                </span>
+
+                <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <meta itemprop="name" content="pioneer-e's dev story" />
+                </span>
+                <header class="post-header">
+                  <h2 class="post-title" itemprop="name headline">
+                    <a href="/2021/06/09/TIL-210609/" class="post-title-link" itemprop="url">TIL-210609</a>
+                  </h2>
+
+                  <div class="post-meta">
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar"></i>
+                      </span>
+                      <span class="post-meta-item-text">작성일</span>
+
+                      <time
+                        title="Post created: 2021-06-09 00:09:33 / Updated at: 23:44:12"
+                        itemprop="dateCreated datePublished"
+                        datetime="2021-06-09T00:09:33+09:00"
+                        >2021-06-09</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-folder"></i>
+                      </span>
+                      <span class="post-meta-item-text">In</span>
+                      <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                        <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                      </span>
+                    </span>
+
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-comment"></i>
+                      </span>
+                      <span class="post-meta-item-text">Disqus: </span>
+
+                      <a title="disqus" href="/2021/06/09/TIL-210609/#disqus_thread" itemprop="discussionUrl">
+                        <span
+                          class="post-comments-count disqus-comment-count"
+                          data-disqus-identifier="2021/06/09/TIL-210609/"
+                          itemprop="commentCount"
+                        ></span>
+                      </a>
+                    </span>
+                  </div>
+                </header>
+
+                <div class="post-body" itemprop="articleBody">
+                  <script
+                    data-ad-client="ca-pub-2623987715139454"
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                  ></script>
+
+                  <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1>
+                  <table style="text-align: center">
+                    <th colspan="4">Node.js + MongoDB</th>
+                    <tr style="text-align: center; background-color: #fff">
+                      <td>Search index</td>
+                      <td>회원기능</td>
+                      <td>multer</td>
+                    </tr>
+                  </table>
+
+                  <ul>
+                    <li>
+                      Search index
+                      <ul>
+                        <li>MongoDB Atlas에서만 제공하는 기능</li>
+                        <li>
+                          Analyzer에서 lucene.korean으로 설정
+                          <ul>
+                            <li>한국어에 맞게 인덱싱 하기 위함</li>
+                          </ul>
+                        </li>
+                        <li>
+                          aggregate()
+                          <ul>
+                            <li>검색 조건을 여러개 붙일 수 있음 (데이터를 꺼내는 파이프라인 구축)</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      회원기능
+                      <ul>
+                        <li>form 만들고 전송 누르면 서버로 보내고 DB에 저장시키면 끝</li>
+                      </ul>
+                    </li>
+                    <li>
+                      multer 라이브러리
+                      <ul>
+                        <li>multipart/form-data를 통해 업로드 된 파일을 쉽게 저장, 이름 변경 할 수 있게 도와줌</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <script
+                  data-ad-client="ca-pub-2623987715139454"
+                  async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
+
+                <footer class="post-footer">
+                  <div class="post-eof"></div>
+                </footer>
+              </article>
+
+              <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+                <link itemprop="mainEntityOfPage" href="https://pioneer-e.github.io/2021/06/08/TIL-210608/" />
+
+                <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="image" content="/images/avatar.jpg" />
+                  <meta itemprop="name" content="pioneer-e" />
+                  <meta itemprop="description" content="" />
+                </span>
+
+                <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <meta itemprop="name" content="pioneer-e's dev story" />
+                </span>
+                <header class="post-header">
+                  <h2 class="post-title" itemprop="name headline">
+                    <a href="/2021/06/08/TIL-210608/" class="post-title-link" itemprop="url">TIL-210608</a>
+                  </h2>
+
+                  <div class="post-meta">
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar"></i>
+                      </span>
+                      <span class="post-meta-item-text">작성일</span>
+
+                      <time
+                        title="Post created: 2021-06-08 21:50:44 / Updated at: 23:28:03"
+                        itemprop="dateCreated datePublished"
+                        datetime="2021-06-08T21:50:44+09:00"
+                        >2021-06-08</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-folder"></i>
+                      </span>
+                      <span class="post-meta-item-text">In</span>
+                      <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                        <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                      </span>
+                    </span>
+
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-comment"></i>
+                      </span>
+                      <span class="post-meta-item-text">Disqus: </span>
+
+                      <a title="disqus" href="/2021/06/08/TIL-210608/#disqus_thread" itemprop="discussionUrl">
+                        <span
+                          class="post-comments-count disqus-comment-count"
+                          data-disqus-identifier="2021/06/08/TIL-210608/"
+                          itemprop="commentCount"
+                        ></span>
+                      </a>
+                    </span>
+                  </div>
+                </header>
+
+                <div class="post-body" itemprop="articleBody">
+                  <script
+                    data-ad-client="ca-pub-2623987715139454"
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                  ></script>
+
+                  <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1>
+                  <table style="text-align: center">
+                    <th colspan="4">Node.js + MongoDB</th>
+                    <tr style="text-align: center; background-color: #fff">
+                      <td>.env</td>
+                      <td>환경변수</td>
+                      <td>URL query string</td>
+                      <td>indexing</td>
+                    </tr>
+                  </table>
+
+                  <ul>
+                    <li>
+                      .env
+                      <ul>
+                        <li>라이브러리 사용 : npm install dotenv</li>
+                        <li>환경변수를 한 곳에 모아서 관리</li>
+                      </ul>
+                    </li>
+                    <li>환경변수 : 환경에 따라 가변적인 변수 데이터</li>
+                    <li>
+                      URL query string
+                      <ul>
+                        <li>GET 요청시 URL 뒤에 데이터를 심어 서버로 보낸다.</li>
+                        <li>데이터이름=데이터값</li>
+                        <li>서버에선 요청.query로 query string 전부 꺼내볼 수 있음</li>
+                      </ul>
+                    </li>
+                    <li>
+                      indexing
+                      <ul>
+                        <li>미리 정렬한다.</li>
+                        <li>index : collection을 정렬 해놓은 사본</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <script
+                  data-ad-client="ca-pub-2623987715139454"
+                  async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
+
+                <footer class="post-footer">
+                  <div class="post-eof"></div>
+                </footer>
+              </article>
+
+              <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ko">
+                <link itemprop="mainEntityOfPage" href="https://pioneer-e.github.io/2021/06/07/TIL-210607/" />
+
+                <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="image" content="/images/avatar.jpg" />
+                  <meta itemprop="name" content="pioneer-e" />
+                  <meta itemprop="description" content="" />
+                </span>
+
+                <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <meta itemprop="name" content="pioneer-e's dev story" />
+                </span>
+                <header class="post-header">
+                  <h2 class="post-title" itemprop="name headline">
+                    <a href="/2021/06/07/TIL-210607/" class="post-title-link" itemprop="url">TIL-210607</a>
+                  </h2>
+
+                  <div class="post-meta">
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-calendar"></i>
+                      </span>
+                      <span class="post-meta-item-text">작성일</span>
+
+                      <time
+                        title="Post created: 2021-06-07 23:16:58 / Updated at: 23:15:42"
+                        itemprop="dateCreated datePublished"
+                        datetime="2021-06-07T23:16:58+09:00"
+                        >2021-06-07</time
+                      >
+                    </span>
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-folder"></i>
+                      </span>
+                      <span class="post-meta-item-text">In</span>
+                      <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                        <a href="/categories/TIL/" itemprop="url" rel="index"><span itemprop="name">TIL</span></a>
+                      </span>
+                    </span>
+
+                    <span class="post-meta-item">
+                      <span class="post-meta-item-icon">
+                        <i class="far fa-comment"></i>
+                      </span>
+                      <span class="post-meta-item-text">Disqus: </span>
+
+                      <a title="disqus" href="/2021/06/07/TIL-210607/#disqus_thread" itemprop="discussionUrl">
+                        <span
+                          class="post-comments-count disqus-comment-count"
+                          data-disqus-identifier="2021/06/07/TIL-210607/"
+                          itemprop="commentCount"
+                        ></span>
+                      </a>
+                    </span>
+                  </div>
+                </header>
+
+                <div class="post-body" itemprop="articleBody">
+                  <script
+                    data-ad-client="ca-pub-2623987715139454"
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                  ></script>
+
+                  <h1 id="What"><a href="#What" class="headerlink" title="What?"></a>What?</h1>
+                  <table style="text-align: center">
+                    <th colspan="4">Node.js + MongoDB</th>
+                    <tr style="text-align: center; background-color: #fff">
+                      <td>method-override</td>
+                      <td>DB데이터 수정</td>
+                      <td>로그인 페이지/아이디 비번 검사</td>
+                      <td>미들웨어</td>
+                    </tr>
+                    <tr style="text-align: center; background-color: #fff">
+                      <td>LocalStrategy()</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </table>
+
+                  <ul>
+                    <li>
+                      method-override
+                      <ul>
+                        <li>HTML에서 PUT/DELETE 요청을 도와주는 라이브러리</li>
+                      </ul>
+                    </li>
+                    <li>
+                      DB데이터 수정
+                      <ul>
+                        <li>서버로 put 요청 들어오면 수정 처리</li>
+                        <li>updateOne(업데이트할내용, 수정할내용, 콜백함수) 사용</li>
+                      </ul>
+                    </li>
+                    <li>
+                      로그인 페이지/아이디 비번 검사
+                      <ul>
+                        <li>
+                          로그인/세션 생성을 도와줄 라이브러리 설치
+                          <ul>
+                            <li>npm install passport passport-local express-session</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      미들웨어
+                      <ul>
+                        <li>요청과 응답 사이에 실행시키는 코드</li>
+                      </ul>
+                    </li>
+                    <li>
+                      LocalStrategy()
+                      <ul>
+                        <li>LocalStrategy( { 설정 }, function(){ 아이디 비번 검사하는 코드 } )</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <script
+                  data-ad-client="ca-pub-2623987715139454"
+                  async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                ></script>
+
+                <footer class="post-footer">
+                  <div class="post-eof"></div>
+                </footer>
+              </article>
+
+              <nav class="pagination">
+                <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a
+                ><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a
+                ><a class="extend next" rel="next" href="/page/2/"
+                  ><i class="fa fa-angle-right" aria-label="다음 페이지"></i
+                ></a>
+              </nav>
+            </div>
+
+            <script>
+              window.addEventListener('tabs:register', () => {
+                let { activeClass } = CONFIG.comments;
+                if (CONFIG.comments.storage) {
+                  activeClass = localStorage.getItem('comments_active') || activeClass;
+                }
+                if (activeClass) {
+                  let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+                  if (activeTab) {
+                    activeTab.click();
+                  }
+                }
+              });
+              if (CONFIG.comments.storage) {
+                window.addEventListener('tabs:click', (event) => {
+                  if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+                  let commentClass = event.target.classList[1];
+                  localStorage.setItem('comments_active', commentClass);
+                });
+              }
+            </script>
+          </div>
+
+          <div class="toggle sidebar-toggle">
+            <span class="toggle-line toggle-line-first"></span>
+            <span class="toggle-line toggle-line-middle"></span>
+            <span class="toggle-line toggle-line-last"></span>
+          </div>
+
+          <aside class="sidebar">
+            <div class="sidebar-inner">
+              <ul class="sidebar-nav motion-element">
+                <li class="sidebar-nav-toc">목차</li>
+                <li class="sidebar-nav-overview">흝어보기</li>
+              </ul>
+
+              <!--noindex-->
+              <div class="post-toc-wrap sidebar-panel"></div>
+              <!--/noindex-->
+
+              <div class="site-overview-wrap sidebar-panel">
+                <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <img class="site-author-image" itemprop="image" alt="pioneer-e" src="/images/avatar.jpg" />
+                  <p class="site-author-name" itemprop="name">pioneer-e</p>
+                  <div class="site-description" itemprop="description"></div>
+                </div>
+                <div class="site-state-wrap motion-element">
+                  <nav class="site-state">
+                    <div class="site-state-item site-state-posts">
+                      <a href="/archives/">
+                        <span class="site-state-item-count">104</span>
+                        <span class="site-state-item-name">포스트</span>
+                      </a>
+                    </div>
+                    <div class="site-state-item site-state-categories">
+                      <a href="/categories/">
+                        <span class="site-state-item-count">1</span>
+                        <span class="site-state-item-name">카테고리</span></a
+                      >
+                    </div>
+                    <div class="site-state-item site-state-tags">
+                      <a href="/tags/">
+                        <span class="site-state-item-count">1</span>
+                        <span class="site-state-item-name">태그</span></a
+                      >
+                    </div>
+                  </nav>
+                </div>
+                <div class="links-of-author motion-element">
+                  <span class="links-of-author-item">
+                    <a
+                      href="https://github.com/pioneer-e"
+                      title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;pioneer-e"
+                      rel="noopener"
+                      target="_blank"
+                      ><i class="fab fa-github fa-fw"></i>GitHub</a
+                    >
+                  </span>
+                </div>
+              </div>
+            </div>
+          </aside>
+          <div id="sidebar-dimmer"></div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-inner">
+          <div class="copyright">
+            &copy;
+            <span itemprop="copyrightYear">2021</span>
+            <span class="with-love">
+              <i class="fa fa-heart"></i>
+            </span>
+            <span class="author" itemprop="copyrightHolder">pioneer-e</span>
+          </div>
+          <div class="powered-by">
+            Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> &
+            <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+          </div>
+
+          <div class="busuanzi-count">
+            <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-user"></i>
+              </span>
+              <span class="site-uv" title="Total Visitors">
+                <span id="busuanzi_value_site_uv"></span>
+              </span>
+            </span>
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="site-pv" title="Total Views">
+                <span id="busuanzi_value_site_pv"></span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </footer>
     </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
 
+    <script src="/lib/anime.min.js"></script>
+    <script src="/lib/velocity/velocity.min.js"></script>
+    <script src="/lib/velocity/velocity.ui.min.js"></script>
 
-      </div>
-    </main>
+    <script src="/js/utils.js"></script>
 
-    <footer class="footer">
-      <div class="footer-inner">
-        
+    <script src="/js/motion.js"></script>
 
-        
+    <script src="/js/schemes/muse.js"></script>
 
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2021</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">codingPpushu</span>
-</div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
-  </div>
+    <script src="/js/next-boot.js"></script>
 
-
-        
-<div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-user"></i>
-      </span>
-      <span class="site-uv" title="Total Visitors">
-        <span id="busuanzi_value_site_uv"></span>
-      </span>
-    </span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-eye"></i>
-      </span>
-      <span class="site-pv" title="Total Views">
-        <span id="busuanzi_value_site_pv"></span>
-      </span>
-    </span>
-</div>
-
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
-
-  
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-<script>
-  function loadCount() {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://codingppushu-blog.disqus.com/count.js';
-    s.id = 'dsq-count-scr';
-    (d.head || d.body).appendChild(s);
-  }
-  // defer loading until the whole page loading is completed
-  window.addEventListener('load', loadCount, false);
-</script>
-
-</body>
+    <script>
+      function loadCount() {
+        var d = document,
+          s = d.createElement('script');
+        s.src = 'https://pioneer-e-blog.disqus.com/count.js';
+        s.id = 'dsq-count-scr';
+        (d.head || d.body).appendChild(s);
+      }
+      // defer loading until the whole page loading is completed
+      window.addEventListener('load', loadCount, false);
+    </script>
+  </body>
 </html>
